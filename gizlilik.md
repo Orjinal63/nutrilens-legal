@@ -1,6 +1,6 @@
 # NutriLens — Gizlilik Politikası
 
-**Yürürlük tarihi:** 22 Haziran 2026
+**Yürürlük tarihi:** 9 Ağustos 2026
 **Veri sorumlusu:** Bahri Bulut (FitnessAI)
 **İletişim:** bahri9954@gmail.com
 
@@ -40,6 +40,31 @@ kişisel verileri işlediğimizi, neden işlediğimizi ve haklarını açıklar.
 ### 1.5. Teknik veriler
 - Uygulamanın çalışması için gereken oturum/kimlik doğrulama bilgileri cihazında
   güvenli depolamada (Keystore/Keychain) tutulur.
+- Ekran düzeni tercihlerin (hangi kartların görüneceği ve sıraları) yalnızca
+  **cihazında** saklanır; sunucuya gönderilmez.
+
+### 1.6. Turnuva ve meydan okuma (diğer kullanıcılara açık)
+
+Uygulamadaki **Turnuva** bölümünde şu iki bilgi **diğer kullanıcılara açık**
+olarak gösterilir:
+
+- **Takma adın** — kendin belirlersin. Belirlemezsen kullanıcı kimliğinden
+  türetilen sabit bir rumuz kullanılır (ör. "Nutri7A3F"); bu rumuzdan kimliğine
+  geri ulaşılamaz.
+- **Puanın** — öğün kaydetmek, kalori hedefini tutturmak, tartıya çıkmak, su
+  içmek, adım/uyku verisi ve seri (üst üste kullanım) üzerinden hesaplanır.
+
+**Gerçek adın, e-posta adresin, kalorin, kilon, öğün fotoğrafların ve sağlık
+ölçümlerin turnuvada hiçbir zaman görünmez.** Puan bir sayıdır; hangi
+davranıştan geldiği başkasına gösterilmez.
+
+Bir kullanıcıya **meydan okursan** (ya da sana meydan okunursa), karşı taraf
+seçilen kategorideki (puan, adım, öğün sayısı, su, uyku) **skorunu** görür.
+Meydan okuma yalnız iki taraf arasında görünür.
+
+**Görünmek istemiyorsan:** Turnuva sekmesi → rozet simgesi → "Sıralamada
+görünme" anahtarını aç. Sıralamadan çıkarsın; puanın hesaplanmaya devam eder ve
+istediğinde geri dönebilirsin.
 
 ---
 
@@ -66,6 +91,8 @@ Verini satmıyoruz. Yalnızca hizmeti sunmak için gerekli **işleyiciler** ile 
 - **Google Gemini (Google)** — yemek fotoğrafı ve metin analizi (AI işleme).
 - **RevenueCat** + **Google Play / Apple App Store** — abonelik doğrulama ve ödeme.
 - **Google Health Connect / Apple Health** — yalnızca senin cihazında, iznine bağlı.
+- **Diğer kullanıcılar** — yalnızca turnuva takma adın ve puanın (bkz. 1.6);
+  meydan okumada ise karşı tarafa seçilen kategorideki skorun.
 
 Bu sağlayıcıların bir kısmı verini yurt dışındaki sunucularda işleyebilir;
 uygun güvenlik önlemleri uygulanır.
