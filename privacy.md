@@ -1,6 +1,6 @@
 # NutriLens — Privacy Policy
 
-**Effective date:** June 22, 2026
+**Effective date:** August 9, 2026
 **Data controller:** Bahri Bulut (FitnessAI)
 **Contact:** bahri9954@gmail.com
 
@@ -40,6 +40,31 @@ what rights you have.
 ### 1.5. Technical data
 - Session/authentication tokens needed to run the App are stored in your device's
   secure storage (Keystore/Keychain).
+- Your layout preferences (which cards are shown and in what order) are stored
+  **only on your device** and are not sent to any server.
+
+### 1.6. Tournament and challenges (visible to other users)
+
+In the **Tournament** section of the App, two pieces of information are shown
+**publicly to other users**:
+
+- **Your nickname** — you choose it. If you don't, a fixed pseudonym derived
+  from your user ID is used (e.g. "Nutri7A3F"); it cannot be traced back to
+  your identity.
+- **Your points** — calculated from logging meals, hitting your calorie goal,
+  weighing in, drinking water, step/sleep data and your streak.
+
+**Your real name, email address, calories, weight, meal photos and health
+measurements are never visible in the tournament.** A point total is just a
+number; the behaviour behind it is not shown to anyone.
+
+If you **challenge** another user (or are challenged), the other party sees
+your **score in the chosen category** (points, steps, meals, water, sleep).
+A challenge is visible only to the two people in it.
+
+**If you'd rather not appear:** Tournament tab → badge icon → turn on "Hide me
+from the board". You leave the leaderboard; your points keep counting and you
+can come back whenever you want.
 
 ---
 
@@ -66,6 +91,8 @@ We do not sell your data. We share it only with **processors** needed to run the
 - **Google Gemini (Google)** — meal photo and text analysis (AI processing).
 - **RevenueCat** + **Google Play / Apple App Store** — subscription validation and payment.
 - **Google Health Connect / Apple Health** — only on your device, subject to your permission.
+- **Other users** — only your tournament nickname and points (see 1.6); in a
+  challenge, your score in the chosen category is shown to the other party.
 
 Some of these providers may process your data on servers outside your country, with
 appropriate safeguards in place.
