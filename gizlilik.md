@@ -1,6 +1,7 @@
 # NutriLens — Gizlilik Politikası
 
 **Yürürlük tarihi:** 9 Ağustos 2026
+**Son güncelleme:** 23 Eylül 2026 (Topluluk bölümü eklendi)
 **Veri sorumlusu:** Bahri Bulut (FitnessAI)
 **İletişim:** bahri9954@gmail.com
 
@@ -66,6 +67,37 @@ Meydan okuma yalnız iki taraf arasında görünür.
 görünme" anahtarını aç. Sıralamadan çıkarsın; puanın hesaplanmaya devam eder ve
 istediğinde geri dönebilirsin.
 
+### 1.7. Topluluk (paylaştıkların diğer kullanıcılara açık)
+
+Topluluk isteğe bağlıdır ve **kalıcı hesap** gerektirir. Topluluk profili
+oluşturduğunda şunlar **giriş yapmış diğer kullanıcılara** görünür:
+
+- Topluluk profilin: görünen ad, kullanıcı adı, profil fotoğrafı (seçersen),
+  biyografi ve seçtiğin hedef. Bu profil sağlık profilinden **ayrıdır**;
+  adın, fotoğrafın veya hedefin otomatik kopyalanmaz.
+- Yayınladığın gönderiler ve ekleri (fotoğraf, video, ses), yorumların,
+  beğenilerin, alıntı/yeniden paylaşımların, takip ettiklerin ve
+  takipçilerin.
+- Gönderilerinin görüntülenme ve paylaşım **sayıları**. Kimin görüntülediği
+  veya paylaştığı diğer kullanıcılara gösterilmez.
+
+**Mesajlar** ve ekleri yalnız sohbet üyelerine görünür; grup davetini kabul
+eden kişi gruptaki önceki mesajları da okuyabilir.
+
+**Beslenme kayıtların, kalorin, kilon, öğün fotoğrafların ve sağlık
+ölçümlerin toplulukta otomatik paylaşılmaz.** Yalnız kendi seçip
+yayınladığın içerik görünür.
+
+Profil oluşturmadan önce topluluk kurallarını kabul edersin; kabul zamanını
+saklarız. **Bildirdiğin** içerik ve kişiler, bildirim gerekçesiyle birlikte
+saklanır ve incelenir. Kurallara aykırı içerik kaldırılabilir; tekrarlayan
+veya ağır ihlallerde topluluk erişimi kapatılır ve bunun gerekçesi saklanır.
+Birden fazla kişinin bildirdiği gönderi, inceleme bitene kadar otomatik
+gizlenebilir.
+
+Kendi gönderilerini silebilir, kişileri engelleyebilirsin. Engellediğin kişiyle
+birbirinizin profilini, gönderilerini ve mesajlarını görmezsiniz.
+
 ---
 
 ## 2. Verileri Neden İşliyoruz (Hukuki Dayanak)
@@ -77,6 +109,8 @@ istediğinde geri dönebilirsin.
 | Sağlık platformu verilerini göstermek | Açık rıza (izinle) |
 | Abonelik ve premium erişim yönetimi | Sözleşmenin ifası |
 | Kötüye kullanımı önleme, kota uygulama | Meşru menfaat |
+| Topluluk profili, paylaşım ve mesajlaşma | Sözleşmenin ifası (sen başlatırsın) |
+| Bildirimleri inceleme ve topluluk güvenliği | Meşru menfaat / yasal yükümlülük |
 
 Sağlık verisi **özel nitelikli kişisel veridir**; bu verileri yalnızca **açık rızanla**
 ve sana hizmeti sunmak için işleriz.
@@ -92,7 +126,8 @@ Verini satmıyoruz. Yalnızca hizmeti sunmak için gerekli **işleyiciler** ile 
 - **RevenueCat** + **Google Play / Apple App Store** — abonelik doğrulama ve ödeme.
 - **Google Health Connect / Apple Health** — yalnızca senin cihazında, iznine bağlı.
 - **Diğer kullanıcılar** — yalnızca turnuva takma adın ve puanın (bkz. 1.6);
-  meydan okumada ise karşı tarafa seçilen kategorideki skorun.
+  meydan okumada ise karşı tarafa seçilen kategorideki skorun; toplulukta
+  ise yalnız kendi yayınladığın profil ve içerik (bkz. 1.7).
 
 Bu sağlayıcıların bir kısmı verini yurt dışındaki sunucularda işleyebilir;
 uygun güvenlik önlemleri uygulanır.
@@ -103,7 +138,10 @@ uygun güvenlik önlemleri uygulanır.
 
 Verilerini hesabın aktif olduğu sürece saklarız. **Hesabını sildiğinde**, yemek
 kayıtların, fotoğrafların, kilo geçmişin, profilin ve kimlik kaydın **kalıcı olarak
-silinir** (Uygulama içi Ayarlar → Gizlilik ve Veriler → Hesabı Sil).
+silinir** (Uygulama içi Ayarlar → Gizlilik ve Veriler → Hesabı Sil). Topluluk
+profilin, gönderilerin, yorumların, mesajların ve yüklediğin topluluk dosyaları
+da silinir. Başka üyelerin bulunduğu bir grubun yöneticiliği başka bir üyeye
+geçer; grup ve diğer üyelerin mesajları kalır.
 
 ---
 

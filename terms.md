@@ -1,6 +1,7 @@
 # NutriLens — Terms of Service
 
 **Effective date:** June 22, 2026
+**Last updated:** September 23, 2026 (Community rules added)
 **Service provider:** Bahri Bulut (FitnessAI)
 **Contact:** bahri9954@gmail.com
 
@@ -52,11 +53,29 @@ You agree not to: reverse-engineer the App, abuse it with automated/excessive re
 attempt to access others' data, use it for unlawful purposes, or disrupt the service. We
 may restrict access in case of abuse.
 
+### 6.1. Community
+
+To join the community you accept the in-app **community guidelines** when creating
+a profile. In particular, the following are not allowed: harassment, bullying,
+threats, hate speech and discrimination; sexual content, nudity, violence and
+content that encourages self-harm; dangerous health advice promoting extreme
+fasting, purging, non-prescribed weight-loss drugs or eating disorders; spam,
+advertising, scams and impersonation; sharing other people's personal
+information or photos without permission; uploading content you have no right
+to share.
+
+You can report inappropriate content and people in the App and block people. We
+review reports; we may remove content that breaks the rules without notice and
+end community access for repeated or serious violations. Community content
+belongs to its users and is not medical advice.
+
 ## 7. Intellectual Property
 
 The App, its design, brand and content belong to Bahri Bulut (FitnessAI). The data you
 enter (photos, logs) belongs to you; we process it only to provide the service (see
-Privacy Policy).
+Privacy Policy). Content you publish in the community also remains yours; while it
+is published you grant us a free, non-exclusive permission to show it to other
+users. The permission ends when you delete the content.
 
 ## 8. Service Continuity
 

@@ -1,6 +1,7 @@
 # NutriLens — Kullanım Şartları
 
 **Yürürlük tarihi:** 22 Haziran 2026
+**Son güncelleme:** 23 Eylül 2026 (Topluluk kuralları eklendi)
 **Hizmet sağlayıcı:** Bahri Bulut (FitnessAI)
 **İletişim:** bahri9954@gmail.com
 
@@ -52,11 +53,28 @@ Uygulamayı kullanmak için **en az 18 yaşında** olmalısın.
 istek göndererek kötüye kullanmak, başkalarının verisine erişmeye çalışmak, yasa dışı
 amaçla kullanmak veya hizmeti aksatmak. Kötüye kullanımda erişimini kısıtlayabiliriz.
 
+### 6.1. Topluluk
+
+Topluluğa katılmak için profil oluştururken uygulamadaki **topluluk kurallarını**
+kabul edersin. Özellikle şunlar yasaktır: taciz, zorbalık, tehdit, nefret söylemi
+ve ayrımcılık; cinsel içerik, çıplaklık, şiddet ve kendine zarar vermeyi özendiren
+içerik; aşırı aç kalma, kusma, reçetesiz zayıflama ilacı veya yeme bozukluğunu
+özendiren tehlikeli sağlık önerileri; spam, reklam, dolandırıcılık ve başkası gibi
+davranmak; başkalarının kişisel bilgilerini veya izinsiz fotoğraflarını paylaşmak;
+paylaşma hakkına sahip olmadığın içeriği yüklemek.
+
+Uygunsuz içeriği ve kişileri uygulama içinden bildirebilir, kişileri
+engelleyebilirsin. Bildirimleri inceleriz; kurallara aykırı içeriği bildirimde
+bulunmadan kaldırabilir, tekrarlayan veya ağır ihlallerde topluluk erişimini
+kapatabiliriz. Topluluktaki içerik kullanıcılara aittir ve tıbbi tavsiye değildir.
+
 ## 7. Fikrî Mülkiyet
 
 Uygulama, tasarımı, markası ve içeriği Bahri Bulut (FitnessAI)'na aittir. Senin
 girdiğin veriler (fotoğraf, kayıt) sana aittir; bunları yalnızca hizmeti sunmak için
-işleriz (bkz. Gizlilik Politikası).
+işleriz (bkz. Gizlilik Politikası). Toplulukta yayınladığın içerik de sana aittir;
+yayında kaldığı sürece onu diğer kullanıcılara göstermemiz için bize ücretsiz,
+münhasır olmayan bir izin verirsin. İçeriği sildiğinde bu izin sona erer.
 
 ## 8. Hizmetin Sürekliliği
 

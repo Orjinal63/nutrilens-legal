@@ -1,6 +1,7 @@
 # NutriLens — Privacy Policy
 
 **Effective date:** August 9, 2026
+**Last updated:** September 23, 2026 (Community section added)
 **Data controller:** Bahri Bulut (FitnessAI)
 **Contact:** bahri9954@gmail.com
 
@@ -66,6 +67,35 @@ A challenge is visible only to the two people in it.
 from the board". You leave the leaderboard; your points keep counting and you
 can come back whenever you want.
 
+### 1.7. Community (what you share is visible to other users)
+
+The community is optional and requires a **permanent account**. Once you create
+a community profile, the following is visible to **other signed-in users**:
+
+- Your community profile: display name, username, profile photo (if you choose
+  one), bio and chosen goal. This profile is **separate** from your health
+  profile; your name, photo or goal are never copied automatically.
+- Posts you publish and their attachments (photo, video, audio), your comments,
+  likes, quotes/reposts, who you follow and who follows you.
+- **Counts** of views and shares of your posts. Who viewed or shared them is not
+  shown to other users.
+
+**Messages** and their attachments are visible only to chat members; accepting a
+group invitation also gives access to earlier messages in that group.
+
+**Your nutrition logs, calories, weight, meal photos and health measurements are
+never shared to the community automatically.** Only content you choose to
+publish is visible.
+
+You accept the community guidelines before creating a profile; we store when you
+accepted them. Content and people you **report** are stored with the reason and
+reviewed. Content that breaks the rules may be removed; repeated or serious
+violations end community access, and we keep the reason. A post reported by
+several people may be hidden automatically until it is reviewed.
+
+You can delete your own posts and block people. You and a person you block no
+longer see each other's profile, posts or messages.
+
 ---
 
 ## 2. Why We Process Data (Legal Basis)
@@ -77,6 +107,8 @@ can come back whenever you want.
 | Display health-platform data | Consent (with permission) |
 | Manage subscriptions and premium access | Performance of contract |
 | Prevent abuse, enforce quotas | Legitimate interest |
+| Community profile, sharing and messaging | Performance of contract (you initiate it) |
+| Reviewing reports and keeping the community safe | Legitimate interest / legal obligation |
 
 Health data is **special-category personal data**; we process it only with your
 **explicit consent** and to provide the service to you.
@@ -92,7 +124,8 @@ We do not sell your data. We share it only with **processors** needed to run the
 - **RevenueCat** + **Google Play / Apple App Store** — subscription validation and payment.
 - **Google Health Connect / Apple Health** — only on your device, subject to your permission.
 - **Other users** — only your tournament nickname and points (see 1.6); in a
-  challenge, your score in the chosen category is shown to the other party.
+  challenge, your score in the chosen category is shown to the other party; in
+  the community, only the profile and content you publish (see 1.7).
 
 Some of these providers may process your data on servers outside your country, with
 appropriate safeguards in place.
@@ -103,7 +136,10 @@ appropriate safeguards in place.
 
 We keep your data while your account is active. When you **delete your account**, your
 meal logs, photos, weight history, profile and identity record are **permanently
-deleted** (in-app: Settings → Privacy & Data → Delete Account).
+deleted** (in-app: Settings → Privacy & Data → Delete Account). Your community
+profile, posts, comments, messages and uploaded community files are deleted too.
+If a group you run has other members, it passes to one of them; the group and
+the other members' messages remain.
 
 ---
 
