@@ -73,7 +73,7 @@ The community is optional and requires a **permanent account**. Once you create
 a community profile, the following is visible to **other signed-in users**:
 
 - Your community profile: display name, username, profile photo (if you choose
-  one), bio and chosen goal. This profile is **separate** from your health
+  one), bio, chosen goal and interests (if you choose any). This profile is **separate** from your health
   profile; your name, photo or goal are never copied automatically.
 - Posts you publish and their attachments (photo, video, audio), your comments,
   likes, quotes/reposts, who you follow and who follows you.
@@ -86,6 +86,12 @@ group invitation also gives access to earlier messages in that group.
 **Your nutrition logs, calories, weight, meal photos and health measurements are
 never shared to the community automatically.** Only content you choose to
 publish is visible.
+
+Your community feed shows your own posts, posts from people you follow and
+people who follow you, and posts from people who share your goal or an
+interest. Only the goal and interests on your community profile are used for
+this matching, never your health or nutrition data. If you have no connections
+yet, general community posts are shown.
 
 You accept the community guidelines before creating a profile; we store when you
 accepted them. Content and people you **report** are stored with the reason and

@@ -73,7 +73,7 @@ Topluluk isteğe bağlıdır ve **kalıcı hesap** gerektirir. Topluluk profili
 oluşturduğunda şunlar **giriş yapmış diğer kullanıcılara** görünür:
 
 - Topluluk profilin: görünen ad, kullanıcı adı, profil fotoğrafı (seçersen),
-  biyografi ve seçtiğin hedef. Bu profil sağlık profilinden **ayrıdır**;
+  biyografi, seçtiğin hedef ve ilgi alanların (seçersen). Bu profil sağlık profilinden **ayrıdır**;
   adın, fotoğrafın veya hedefin otomatik kopyalanmaz.
 - Yayınladığın gönderiler ve ekleri (fotoğraf, video, ses), yorumların,
   beğenilerin, alıntı/yeniden paylaşımların, takip ettiklerin ve
@@ -87,6 +87,12 @@ eden kişi gruptaki önceki mesajları da okuyabilir.
 **Beslenme kayıtların, kalorin, kilon, öğün fotoğrafların ve sağlık
 ölçümlerin toplulukta otomatik paylaşılmaz.** Yalnız kendi seçip
 yayınladığın içerik görünür.
+
+Topluluk akışın; kendi gönderilerini, takip ettiklerinin ve seni takip
+edenlerin gönderilerini ve hedefi ya da ilgi alanı seninkiyle ortak kişilerin
+gönderilerini gösterir. Bu eşleştirme için yalnız topluluk profilindeki hedef
+ve ilgi alanları kullanılır; sağlık ve beslenme verin kullanılmaz. Henüz
+kimseyle bağlantın yoksa topluluğun genel gönderileri gösterilir.
 
 Profil oluşturmadan önce topluluk kurallarını kabul edersin; kabul zamanını
 saklarız. **Bildirdiğin** içerik ve kişiler, bildirim gerekçesiyle birlikte
