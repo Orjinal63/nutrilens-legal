@@ -1,7 +1,7 @@
 # NutriLens — Privacy Policy
 
 **Effective date:** August 9, 2026
-**Last updated:** September 23, 2026 (Community section added)
+**Last updated:** October 1, 2026 (Weather and approximate location section added)
 **Data controller:** Bahri Bulut (FitnessAI)
 **Contact:** bahri9954@gmail.com
 
@@ -102,6 +102,26 @@ several people may be hidden automatically until it is reviewed.
 You can delete your own posts and block people. You and a person you block no
 longer see each other's profile, posts or messages.
 
+### 1.8. Weather (optional, approximate location)
+
+The weather feature is **off by default**. If you turn it on, the App asks for
+**approximate location** permission; it is read only while you use the App and
+at low accuracy, and there is no background location tracking.
+
+- The coordinate is **rounded to two decimals** (about 1 km) on your phone and
+  sent over an encrypted connection to the NutriLens server, which fetches the
+  forecast for that area from **MET Norway** (Norwegian Meteorological Institute).
+- MET Norway never receives your identity, account, health data or your phone's
+  IP address; it only sees the rounded area coordinate and our server's address.
+- Your location is not stored as a location history and is not linked to your
+  account. The area's forecast is cached briefly; your phone reuses it for up
+  to 30 minutes.
+- Weather is used only to show it on the home screen and to order ready-made
+  meal suggestions by temperature and rain; your calorie and macro targets do
+  not change.
+- You can turn the feature off at any time from the weather bar's menu. If you
+  deny location permission, every other feature keeps working.
+
 ---
 
 ## 2. Why We Process Data (Legal Basis)
@@ -115,6 +135,7 @@ longer see each other's profile, posts or messages.
 | Prevent abuse, enforce quotas | Legitimate interest |
 | Community profile, sharing and messaging | Performance of contract (you initiate it) |
 | Reviewing reports and keeping the community safe | Legitimate interest / legal obligation |
+| Weather and weather-based suggestions | Consent (location permission, optional) |
 
 Health data is **special-category personal data**; we process it only with your
 **explicit consent** and to provide the service to you.
@@ -129,6 +150,7 @@ We do not sell your data. We share it only with **processors** needed to run the
 - **Google Gemini (Google)** — meal photo and text analysis (AI processing).
 - **RevenueCat** + **Google Play / Apple App Store** — subscription validation and payment.
 - **Google Health Connect / Apple Health** — only on your device, subject to your permission.
+- **MET Norway** — weather forecast; only a rounded area coordinate, without your identity (see 1.8).
 - **Other users** — only your tournament nickname and points (see 1.6); in a
   challenge, your score in the chosen category is shown to the other party; in
   the community, only the profile and content you publish (see 1.7).

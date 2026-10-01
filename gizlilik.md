@@ -1,7 +1,7 @@
 # NutriLens — Gizlilik Politikası
 
 **Yürürlük tarihi:** 9 Ağustos 2026
-**Son güncelleme:** 23 Eylül 2026 (Topluluk bölümü eklendi)
+**Son güncelleme:** 1 Ekim 2026 (Hava durumu ve yaklaşık konum bölümü eklendi)
 **Veri sorumlusu:** Bahri Bulut (FitnessAI)
 **İletişim:** bahri9954@gmail.com
 
@@ -104,6 +104,26 @@ gizlenebilir.
 Kendi gönderilerini silebilir, kişileri engelleyebilirsin. Engellediğin kişiyle
 birbirinizin profilini, gönderilerini ve mesajlarını görmezsiniz.
 
+### 1.8. Hava durumu (isteğe bağlı, yaklaşık konum)
+
+Hava özelliği **kapalı başlar**. Açarsan uygulama telefonundan **yaklaşık konum**
+izni ister; yalnız uygulamayı kullanırken ve düşük hassasiyetle okunur, arka
+planda konum takibi yapılmaz.
+
+- Koordinat telefonunda **iki ondalığa yuvarlanır** (yaklaşık 1 km) ve şifreli
+  bağlantıyla NutriLens sunucusuna gönderilir. Sunucu o bölgenin hava tahminini
+  **MET Norway** (Norveç Meteoroloji Enstitüsü) hizmetinden alır.
+- MET Norway'e kimliğin, hesabın, sağlık verin veya telefonunun IP adresi
+  gönderilmez; yalnız yuvarlanmış bölge koordinatı ve sunucumuzun adresi görünür.
+- Konumun bir konum geçmişi olarak saklanmaz ve hesabınla ilişkilendirilmez.
+  Bölgenin hava tahmini kısa süre önbellekte tutulur; telefonunda en fazla
+  30 dakika yeniden kullanılır.
+- Hava bilgisi yalnız sıcaklık ve yağışa uygun hazır öğün önerilerini sıralamak
+  ve ana ekranda havayı göstermek için kullanılır; kalori ve makro hedeflerin
+  değişmez.
+- Özelliği hava çubuğunun menüsünden istediğin an kapatabilirsin. Konum iznini
+  vermezsen diğer bütün özellikler çalışmaya devam eder.
+
 ---
 
 ## 2. Verileri Neden İşliyoruz (Hukuki Dayanak)
@@ -117,6 +137,7 @@ birbirinizin profilini, gönderilerini ve mesajlarını görmezsiniz.
 | Kötüye kullanımı önleme, kota uygulama | Meşru menfaat |
 | Topluluk profili, paylaşım ve mesajlaşma | Sözleşmenin ifası (sen başlatırsın) |
 | Bildirimleri inceleme ve topluluk güvenliği | Meşru menfaat / yasal yükümlülük |
+| Hava durumu ve havaya göre öneriler | Açık rıza (konum izni, isteğe bağlı) |
 
 Sağlık verisi **özel nitelikli kişisel veridir**; bu verileri yalnızca **açık rızanla**
 ve sana hizmeti sunmak için işleriz.
@@ -131,6 +152,7 @@ Verini satmıyoruz. Yalnızca hizmeti sunmak için gerekli **işleyiciler** ile 
 - **Google Gemini (Google)** — yemek fotoğrafı ve metin analizi (AI işleme).
 - **RevenueCat** + **Google Play / Apple App Store** — abonelik doğrulama ve ödeme.
 - **Google Health Connect / Apple Health** — yalnızca senin cihazında, iznine bağlı.
+- **MET Norway** — hava tahmini; yalnız yuvarlanmış bölge koordinatı, kimlik olmadan (bkz. 1.8).
 - **Diğer kullanıcılar** — yalnızca turnuva takma adın ve puanın (bkz. 1.6);
   meydan okumada ise karşı tarafa seçilen kategorideki skorun; toplulukta
   ise yalnız kendi yayınladığın profil ve içerik (bkz. 1.7).
