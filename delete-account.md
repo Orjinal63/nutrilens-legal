@@ -21,11 +21,14 @@ address with the subject **"Delete my account"**. We process the request within 
 
 When you delete your account, the following are **permanently removed**:
 
-- Account and profile (email, goals, body metrics)
-- Meal logs, calories and nutrition data
-- Meal photos
-- Weight history
+- Account and profile (name, email, goals, body metrics)
+- Meal logs, calories and nutrition data, weekly meal plans
+- Meal and profile photos
+- Weight history and health/fitness data synced from Health Connect (steps, activity, sleep, heart rate)
 - AI usage records
+- Community profile, posts, comments, messages, likes, follows, reports and uploaded photos, videos and audio
+
+Approximate location used for the optional weather feature is never stored, so there is nothing to delete.
 
 ## What data is retained
 
@@ -38,5 +41,5 @@ When you delete your account, the following are **permanently removed**:
 
 **Türkçe:** Hesabınızı silmek için uygulamada **Ayarlar → Gizlilik ve Veriler → Hesabı
 Sil** adımlarını izleyin ya da **bahri9954@gmail.com** adresine yazın. Hesabınız ve tüm
-verileriniz (profil, öğünler, kilo geçmişi, fotoğraflar, AI kayıtları) **kalıcı olarak**
+verileriniz (profil, öğünler, haftalık planlar, kilo ve sağlık/aktivite verileri, fotoğraflar, AI kayıtları, topluluk profili, gönderi, yorum, mesaj ve yüklenen medya) **kalıcı olarak**
 silinir; yedekler 30 gün içinde temizlenir.
