@@ -1,7 +1,7 @@
 # NutriLens — Gizlilik Politikası
 
 **Yürürlük tarihi:** 9 Ağustos 2026
-**Son güncelleme:** 1 Ekim 2026 (Hava durumu ve yaklaşık konum bölümü eklendi)
+**Son güncelleme:** 6 Ekim 2026 (Topluluk misafir hesaplara açıldı, Koç Nutri gönderileri, Arena adları, öneri anketi)
 **Veri sorumlusu:** Bahri Bulut (FitnessAI)
 **İletişim:** bahri9954@gmail.com
 
@@ -50,8 +50,9 @@ Uygulamadaki **Turnuva** bölümünde şu iki bilgi **diğer kullanıcılara aç
 olarak gösterilir:
 
 - **Takma adın** — kendin belirlersin. Belirlemezsen kullanıcı kimliğinden
-  türetilen sabit bir rumuz kullanılır (ör. "Nutri7A3F"); bu rumuzdan kimliğine
-  geri ulaşılamaz.
+  türetilen sabit bir ad kullanılır (ör. "Gururlu Armut 562"); okuyanın
+  uygulama dilinde yazılır ve bu addan kimliğine geri ulaşılamaz. Takma ad
+  başka birinin görünen adını kopyalayamaz.
 - **Puanın** — öğün kaydetmek, kalori hedefini tutturmak, tartıya çıkmak, su
   içmek, adım/uyku verisi ve seri (üst üste kullanım) üzerinden hesaplanır.
 
@@ -63,14 +64,25 @@ Bir kullanıcıya **meydan okursan** (ya da sana meydan okunursa), karşı taraf
 seçilen kategorideki (puan, adım, öğün sayısı, su, uyku) **skorunu** görür.
 Meydan okuma yalnız iki taraf arasında görünür.
 
+Son 30 günde puan almayanlar sıralamada gösterilmez; bir sonraki puanlarıyla
+yeniden görünürler.
+
 **Görünmek istemiyorsan:** Turnuva sekmesi → rozet simgesi → "Sıralamada
 görünme" anahtarını aç. Sıralamadan çıkarsın; puanın hesaplanmaya devam eder ve
 istediğinde geri dönebilirsin.
 
 ### 1.7. Topluluk (paylaştıkların diğer kullanıcılara açık)
 
-Topluluk isteğe bağlıdır ve **kalıcı hesap** gerektirir. Topluluk profili
-oluşturduğunda şunlar **giriş yapmış diğer kullanıcılara** görünür:
+Topluluk isteğe bağlıdır. **Misafir hesapla** ya da kalıcı hesapla
+katılabilirsin. Misafir hesap günde en fazla 3 gönderi ve 30 yorum
+yayınlayabilir; **mesajlaşma, grup ve video** için kalıcı hesap gerekir.
+Misafir hesap uygulama silinince kaybolur ve o hesapla paylaşılanları artık sen
+silemezsin; kaldırılmasını istediğin içerik için bize yaz.
+
+Beğeni, görüntülenme ve paylaşım sayıları, bildirim ve engelleme topluluk
+profili olmadan da çalışır. Topluluk profili oluşturduğunda (paylaşım, yorum,
+yeniden paylaşım, alıntı ve takip için gerekir) şunlar **giriş yapmış diğer
+kullanıcılara** görünür:
 
 - Topluluk profilin: görünen ad, kullanıcı adı, profil fotoğrafı (seçersen),
   biyografi, seçtiğin hedef ve ilgi alanların (seçersen). Bu profil sağlık profilinden **ayrıdır**;
@@ -101,6 +113,12 @@ veya ağır ihlallerde topluluk erişimi kapatılır ve bunun gerekçesi saklan�
 Birden fazla kişinin bildirdiği gönderi, inceleme bitene kadar otomatik
 gizlenebilir.
 
+**Koç Nutri gönderileri.** "Resmî yapay zekâ koçu" işaretli "Koç Nutri"
+hesabının gönderileri NutriLens tarafından yapay zekâ (Google Gemini) yardımıyla
+hazırlanır; genel sağlıklı yaşam bilgisidir, kişisel tıbbi tavsiye değildir.
+Senin verilerini kullanmaz; pazartesi duyurusu yalnız Arena sıralamasında
+zaten görünen ilk üçün adlarını içerir. Koç Nutri mesaj okumaz ve yanıtlamaz.
+
 Kendi gönderilerini silebilir, kişileri engelleyebilirsin. Engellediğin kişiyle
 birbirinizin profilini, gönderilerini ve mesajlarını görmezsiniz.
 
@@ -124,6 +142,15 @@ planda konum takibi yapılmaz.
 - Özelliği hava çubuğunun menüsünden istediğin an kapatabilirsin. Konum iznini
   vermezsen diğer bütün özellikler çalışmaya devam eder.
 
+### 1.9. Öneri anketi (isteğe bağlı)
+
+Uygulama ara sıra ve Ayarlar → Öneri gönder bölümünden, uygulamada ne görmek
+istediğini sorar. Yanıt vermek isteğe bağlıdır. Gönderirsen seçtiğin
+seçenekler, yazdığın metin, uygulama dili, cihazının ülke kodu ve uygulama
+sürümü saklanır ve **geliştiriciye e-postayla iletilir**. E-postaya hesap
+kimliğin, e-posta adresin veya sağlık verin eklenmez; lütfen metne sağlık
+bilgisi yazma. Hesap başına 20 saatte bir yanıt kabul edilir.
+
 ---
 
 ## 2. Verileri Neden İşliyoruz (Hukuki Dayanak)
@@ -138,6 +165,7 @@ planda konum takibi yapılmaz.
 | Topluluk profili, paylaşım ve mesajlaşma | Sözleşmenin ifası (sen başlatırsın) |
 | Bildirimleri inceleme ve topluluk güvenliği | Meşru menfaat / yasal yükümlülük |
 | Hava durumu ve havaya göre öneriler | Açık rıza (konum izni, isteğe bağlı) |
+| Gönderdiğin öneriler | Açık rıza (göndermeyi sen seçersin) |
 
 Sağlık verisi **özel nitelikli kişisel veridir**; bu verileri yalnızca **açık rızanla**
 ve sana hizmeti sunmak için işleriz.
@@ -153,6 +181,7 @@ Verini satmıyoruz. Yalnızca hizmeti sunmak için gerekli **işleyiciler** ile 
 - **RevenueCat** + **Google Play / Apple App Store** — abonelik doğrulama ve ödeme.
 - **Google Health Connect / Apple Health** — yalnızca senin cihazında, iznine bağlı.
 - **MET Norway** — hava tahmini; yalnız yuvarlanmış bölge koordinatı, kimlik olmadan (bkz. 1.8).
+- **FormSubmit / Resend** — gönderdiğin önerilerin e-postayla gelen kutumuza iletilmesi (bkz. 1.9).
 - **Diğer kullanıcılar** — yalnızca turnuva takma adın ve puanın (bkz. 1.6);
   meydan okumada ise karşı tarafa seçilen kategorideki skorun; toplulukta
   ise yalnız kendi yayınladığın profil ve içerik (bkz. 1.7).
@@ -167,8 +196,8 @@ uygun güvenlik önlemleri uygulanır.
 Verilerini hesabın aktif olduğu sürece saklarız. **Hesabını sildiğinde**, yemek
 kayıtların, fotoğrafların, kilo geçmişin, profilin ve kimlik kaydın **kalıcı olarak
 silinir** (Uygulama içi Ayarlar → Gizlilik ve Veriler → Hesabı Sil). Topluluk
-profilin, gönderilerin, yorumların, mesajların ve yüklediğin topluluk dosyaları
-da silinir. Başka üyelerin bulunduğu bir grubun yöneticiliği başka bir üyeye
+profilin, gönderilerin, yorumların, beğenilerin, mesajların, yüklediğin
+topluluk dosyaları ve gönderdiğin öneriler de silinir. Başka üyelerin bulunduğu bir grubun yöneticiliği başka bir üyeye
 geçer; grup ve diğer üyelerin mesajları kalır.
 
 ---

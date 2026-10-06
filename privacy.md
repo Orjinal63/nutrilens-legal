@@ -1,7 +1,7 @@
 # NutriLens — Privacy Policy
 
 **Effective date:** August 9, 2026
-**Last updated:** October 1, 2026 (Weather and approximate location section added)
+**Last updated:** October 6, 2026 (Community open to guest accounts, Coach Nutri posts, Arena names, suggestions survey)
 **Data controller:** Bahri Bulut (FitnessAI)
 **Contact:** bahri9954@gmail.com
 
@@ -49,9 +49,10 @@ what rights you have.
 In the **Tournament** section of the App, two pieces of information are shown
 **publicly to other users**:
 
-- **Your nickname** — you choose it. If you don't, a fixed pseudonym derived
-  from your user ID is used (e.g. "Nutri7A3F"); it cannot be traced back to
-  your identity.
+- **Your nickname** — you choose it. If you don't, a fixed name derived from
+  your user ID is used (e.g. "Proud Pear 562"), written in the reader's app
+  language; it cannot be traced back to your identity.
+  A nickname may not copy another person's shown name.
 - **Your points** — calculated from logging meals, hitting your calorie goal,
   weighing in, drinking water, step/sleep data and your streak.
 
@@ -63,14 +64,24 @@ If you **challenge** another user (or are challenged), the other party sees
 your **score in the chosen category** (points, steps, meals, water, sleep).
 A challenge is visible only to the two people in it.
 
+People without points in the last 30 days are not listed; they reappear with
+their next point.
+
 **If you'd rather not appear:** Tournament tab → badge icon → turn on "Hide me
 from the board". You leave the leaderboard; your points keep counting and you
 can come back whenever you want.
 
 ### 1.7. Community (what you share is visible to other users)
 
-The community is optional and requires a **permanent account**. Once you create
-a community profile, the following is visible to **other signed-in users**:
+The community is optional. You can take part with a **guest account** or a
+permanent account. A guest account can publish up to 3 posts and 30 comments a
+day; **messages, groups and video** need a permanent account. A guest account is
+lost if the App is removed, and you can then no longer delete what it shared;
+contact us to have such content removed.
+
+Likes, view and share counts, reports and blocks work without a community
+profile. Once you create a community profile (needed to post, comment, repost,
+quote or follow), the following is visible to **other signed-in users**:
 
 - Your community profile: display name, username, profile photo (if you choose
   one), bio, chosen goal and interests (if you choose any). This profile is **separate** from your health
@@ -99,6 +110,12 @@ reviewed. Content that breaks the rules may be removed; repeated or serious
 violations end community access, and we keep the reason. A post reported by
 several people may be hidden automatically until it is reviewed.
 
+**Coach Nutri posts.** Posts from the "Coach Nutri" account, marked as the
+official AI coach, are written by NutriLens with the help of AI (Google Gemini)
+and are general wellbeing information, not personal medical advice. They do not
+use your data; the Monday post names last week's top three exactly as they
+appear on the Arena board. Coach Nutri does not read or answer messages.
+
 You can delete your own posts and block people. You and a person you block no
 longer see each other's profile, posts or messages.
 
@@ -122,6 +139,16 @@ at low accuracy, and there is no background location tracking.
 - You can turn the feature off at any time from the weather bar's menu. If you
   deny location permission, every other feature keeps working.
 
+### 1.9. Suggestions survey (optional)
+
+From time to time, and from Settings → Send a suggestion, the App asks what you
+would like to see in it. Answering is optional. If you send an answer, the
+options you chose, the text you wrote, the app language, your device's country
+code and the app version are stored and **emailed to the developer**. The email
+does not include your account ID, email address or health data; please don't
+write health information in the text. One answer per account is accepted every
+20 hours.
+
 ---
 
 ## 2. Why We Process Data (Legal Basis)
@@ -136,6 +163,7 @@ at low accuracy, and there is no background location tracking.
 | Community profile, sharing and messaging | Performance of contract (you initiate it) |
 | Reviewing reports and keeping the community safe | Legitimate interest / legal obligation |
 | Weather and weather-based suggestions | Consent (location permission, optional) |
+| Suggestions you send | Consent (you choose to send them) |
 
 Health data is **special-category personal data**; we process it only with your
 **explicit consent** and to provide the service to you.
@@ -151,6 +179,7 @@ We do not sell your data. We share it only with **processors** needed to run the
 - **RevenueCat** + **Google Play / Apple App Store** — subscription validation and payment.
 - **Google Health Connect / Apple Health** — only on your device, subject to your permission.
 - **MET Norway** — weather forecast; only a rounded area coordinate, without your identity (see 1.8).
+- **FormSubmit / Resend** — email delivery of suggestions you send to our inbox (see 1.9).
 - **Other users** — only your tournament nickname and points (see 1.6); in a
   challenge, your score in the chosen category is shown to the other party; in
   the community, only the profile and content you publish (see 1.7).
@@ -165,7 +194,8 @@ appropriate safeguards in place.
 We keep your data while your account is active. When you **delete your account**, your
 meal logs, photos, weight history, profile and identity record are **permanently
 deleted** (in-app: Settings → Privacy & Data → Delete Account). Your community
-profile, posts, comments, messages and uploaded community files are deleted too.
+profile, posts, comments, likes, messages, uploaded community files and the
+suggestions you sent are deleted too.
 If a group you run has other members, it passes to one of them; the group and
 the other members' messages remain.
 
