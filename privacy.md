@@ -1,7 +1,7 @@
 # NutriLens — Privacy Policy
 
 **Effective date:** August 9, 2026
-**Last updated:** October 6, 2026 (Community open to guest accounts, Coach Nutri posts, Arena names, suggestions survey)
+**Last updated:** October 9, 2026 (Usage statistics, nearby shops and prices, optional health facts on the profile, Coach Nutri comments, product information sources)
 **Data controller:** Bahri Bulut (FitnessAI)
 **Contact:** bahri9954@gmail.com
 
@@ -31,6 +31,10 @@ what rights you have.
 ### 1.3. AI processing data
 - Your meal photos and coach chat messages are sent to **Google Gemini** (via our
   server-side proxy) to generate nutrition analysis and advice.
+- To tailor its advice, coach chat and the weekly plan also send Gemini your
+  profile, today's meals and the **names and health scores of the meals you
+  logged in the last 60 days**. This happens only at your request and is never
+  shown to anyone else.
 - AI calls are counted server-side for **daily quota** enforcement.
 
 ### 1.4. Subscription information
@@ -43,6 +47,17 @@ what rights you have.
   secure storage (Keystore/Keychain).
 - Your layout preferences (which cards are shown and in what order) are stored
   **only on your device** and are not sent to any server.
+- Your **health profile** (diet preferences, ingredients you avoid, family
+  members) and your **favourite products** are also stored **only on your
+  device** and are not sent to any server.
+- **App usage record:** for each day you open the App, the hours you opened it
+  and how many times, your device's country code, app language, platform
+  (Android/iOS) and app version are recorded with your account. It contains no
+  location, content or diary entries. These records and the age/gender in your
+  profile are used only for **aggregate statistics** seen by the developer (how
+  many people, at what hours, from which countries, average age); individual
+  records are never shown to anyone. **Usage records older than 400 days** are
+  deleted every night.
 
 ### 1.6. Tournament and challenges (visible to other users)
 
@@ -98,6 +113,14 @@ group invitation also gives access to earlier messages in that group.
 never shared to the community automatically.** Only content you choose to
 publish is visible.
 
+**Optional profile facts.** If you switch them on while editing your community
+profile, your profile card shows signed-in users your diet style, your weight
+journey (starting, current and target weight), your daily calorie and macro
+targets, and today's steps and water. Each one **starts off**, is switched on
+and off separately and is hidden as soon as you switch it off. If you attach a
+meal to a post, that meal's name and nutrition values are shown with the post.
+Posts you save are visible only to you.
+
 Your community feed shows your own posts, posts from people you follow and
 people who follow you, and posts from people who share your goal or an
 interest. Only the goal and interests on your community profile are used for
@@ -110,11 +133,14 @@ reviewed. Content that breaks the rules may be removed; repeated or serious
 violations end community access, and we keep the reason. A post reported by
 several people may be hidden automatically until it is reviewed.
 
-**Coach Nutri posts.** Posts from the "Coach Nutri" account, marked as the
-official AI coach, are written by NutriLens with the help of AI (Google Gemini)
-and are general wellbeing information, not personal medical advice. They do not
-use your data; the Monday post names last week's top three exactly as they
-appear on the Arena board. Coach Nutri does not read or answer messages.
+**Coach Nutri.** Posts and comments from the "Coach Nutri" account, marked as
+the official AI coach, are written by NutriLens with the help of AI (Google
+Gemini) and are general wellbeing information, not personal medical advice.
+Coach Nutri may like, comment on, reply to, quote or repost community posts. For
+this it uses only what the post or comment says and the author's display name,
+never your diary or health data. The Monday post names last week's top three
+exactly as they appear on the Arena board. The NutriLens team may also post on
+behalf of this account. Coach Nutri does not read or answer messages.
 
 You can delete your own posts and block people. You and a person you block no
 longer see each other's profile, posts or messages.
@@ -149,6 +175,35 @@ does not include your account ID, email address or health data; please don't
 write health information in the text. One answer per account is accepted every
 20 hours.
 
+### 1.10. Nearby shops and prices (optional, approximate location)
+
+When you want to see a product's prices nearby or the shops near you, the App
+asks for **approximate location** permission. Location is read only for that
+search, while you use the App; there is no background tracking.
+
+- Your location goes over an encrypted connection to the NutriLens server. To
+  find nearby shops, the server sends **OpenStreetMap** services (komoot Photon,
+  Overpass) only a coordinate **rounded to about 110 metres**; your identity and
+  your phone's IP address are never sent to them. Your location is not stored
+  and is not linked to your account.
+- **Prices you report:** the product's barcode and name, the shop's name and map
+  position (not yours), the price, currency and time are stored. Other users see
+  the price, shop, distance and date; **who reported it is never shown**. Your
+  account is kept with the report to apply the daily limit and prevent abuse.
+- Public prices for the product on **Open Prices** (Open Food Facts) are looked
+  up through our server by barcode only.
+- The "Compare on Market Fiyatı" link opens the official Market Fiyatı website
+  in your browser; that site has its own policy.
+- If you deny location permission, every other feature keeps working.
+
+### 1.11. Product and food information sources
+
+When you scan a barcode, the barcode number, and when you search for a product,
+the text you type, are sent from your phone directly to **Open Food Facts**; for
+some food pictures, the food's name is sent to **Wikipedia**. These services
+receive no account, health data or location; like any website, they can see your
+phone's IP address.
+
 ---
 
 ## 2. Why We Process Data (Legal Basis)
@@ -164,6 +219,10 @@ write health information in the text. One answer per account is accepted every
 | Reviewing reports and keeping the community safe | Legitimate interest / legal obligation |
 | Weather and weather-based suggestions | Consent (location permission, optional) |
 | Suggestions you send | Consent (you choose to send them) |
+| Aggregate usage statistics | Legitimate interest (improving the service) |
+| Nearby shops and prices | Consent (location permission, optional) |
+| Reporting a price | Performance of contract (you initiate it) |
+| Showing health facts on your profile | Consent (if you switch them on) |
 
 Health data is **special-category personal data**; we process it only with your
 **explicit consent** and to provide the service to you.
@@ -180,9 +239,13 @@ We do not sell your data. We share it only with **processors** needed to run the
 - **Google Health Connect / Apple Health** — only on your device, subject to your permission.
 - **MET Norway** — weather forecast; only a rounded area coordinate, without your identity (see 1.8).
 - **FormSubmit / Resend** — email delivery of suggestions you send to our inbox (see 1.9).
+- **OpenStreetMap (komoot Photon, Overpass)** — nearby shops; only a rounded coordinate, without your identity (see 1.10).
+- **Open Food Facts / Open Prices** — product information by barcode and public prices (see 1.10, 1.11).
+- **Wikipedia** — food pictures by food name (see 1.11).
 - **Other users** — only your tournament nickname and points (see 1.6); in a
   challenge, your score in the chosen category is shown to the other party; in
-  the community, only the profile and content you publish (see 1.7).
+  the community, only the profile and content you publish and the profile facts
+  you switch on (see 1.7); prices you report, without your identity (see 1.10).
 
 Some of these providers may process your data on servers outside your country, with
 appropriate safeguards in place.
@@ -194,8 +257,9 @@ appropriate safeguards in place.
 We keep your data while your account is active. When you **delete your account**, your
 meal logs, photos, weight history, profile and identity record are **permanently
 deleted** (in-app: Settings → Privacy & Data → Delete Account). Your community
-profile, posts, comments, likes, messages, uploaded community files and the
-suggestions you sent are deleted too.
+profile, posts, comments, likes, messages, uploaded community files, the
+suggestions you sent, the prices you reported and your app usage records are
+deleted too.
 If a group you run has other members, it passes to one of them; the group and
 the other members' messages remain.
 

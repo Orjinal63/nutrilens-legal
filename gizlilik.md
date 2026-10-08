@@ -1,7 +1,7 @@
 # NutriLens — Gizlilik Politikası
 
 **Yürürlük tarihi:** 9 Ağustos 2026
-**Son güncelleme:** 6 Ekim 2026 (Topluluk misafir hesaplara açıldı, Koç Nutri gönderileri, Arena adları, öneri anketi)
+**Son güncelleme:** 9 Ekim 2026 (Kullanım istatistikleri, yakındaki marketler ve fiyatlar, profilde isteğe bağlı sağlık bilgileri, Koç Nutri yorumları, ürün bilgisi kaynakları)
 **Veri sorumlusu:** Bahri Bulut (FitnessAI)
 **İletişim:** bahri9954@gmail.com
 
@@ -31,6 +31,9 @@ kişisel verileri işlediğimizi, neden işlediğimizi ve haklarını açıklar.
 ### 1.3. Yapay zekâ işleme verileri
 - Yemek fotoğrafların ve koç sohbeti mesajların, besin analizi ve tavsiye üretmek
   için **Google Gemini** AI servisine (sunucularımız üzerinden, proxy ile) gönderilir.
+- Koç sohbeti ve haftalık plan, önerileri sana göre yapmak için profilini, bugünkü
+  öğünlerini ve **son 60 günde kaydettiğin öğünlerin adlarını ve sağlık puanlarını**
+  da Gemini'ye gönderir. Bu yalnız senin isteğinde olur ve başkasına gösterilmez.
 - AI çağrıları, sunucu tarafında **günlük kota** takibi için sayılır (sayaç verisi).
 
 ### 1.4. Abonelik bilgileri
@@ -43,6 +46,15 @@ kişisel verileri işlediğimizi, neden işlediğimizi ve haklarını açıklar.
   güvenli depolamada (Keystore/Keychain) tutulur.
 - Ekran düzeni tercihlerin (hangi kartların görüneceği ve sıraları) yalnızca
   **cihazında** saklanır; sunucuya gönderilmez.
+- **Sağlık profilin** (diyet tercihleri, kaçındığın içerikler, aile üyeleri) ve
+  **favori ürünlerin** de yalnız **cihazında** saklanır; sunucuya gönderilmez.
+- **Uygulama kullanım kaydı:** Uygulamayı açtığın her gün için hangi saatlerde ve
+  kaç kez açtığın, cihazının ülke kodu, uygulama dili, platform (Android/iOS) ve
+  uygulama sürümü hesabınla birlikte kaydedilir. Konum, içerik veya günlük kaydı
+  içermez. Bu kayıtlar ve profilindeki yaş/cinsiyet yalnız geliştiricinin gördüğü
+  **toplu istatistikler** (kaç kişi, hangi saatler, hangi ülkeler, yaş ortalaması)
+  için kullanılır; tek tek kayıtlar kimseye gösterilmez. **400 günden eski
+  kullanım kayıtları** her gece silinir.
 
 ### 1.6. Turnuva ve meydan okuma (diğer kullanıcılara açık)
 
@@ -100,6 +112,14 @@ eden kişi gruptaki önceki mesajları da okuyabilir.
 ölçümlerin toplulukta otomatik paylaşılmaz.** Yalnız kendi seçip
 yayınladığın içerik görünür.
 
+**İsteğe bağlı profil bilgileri.** Topluluk profilini düzenlerken açarsan, profil
+kartında şunlar giriş yapmış diğer kullanıcılara görünür: diyet tarzın, kilo
+yolculuğun (başlangıç, şimdiki ve hedef kilo), günlük kalori ve makro hedeflerin,
+bugünkü adım ve su miktarın. Her biri **kapalı başlar**, ayrı ayrı açılıp
+kapatılır ve kapattığında hemen gizlenir. Bir gönderiye öğün eklersen o öğünün
+adı ve besin değerleri gönderiyle birlikte görünür. Kaydettiğin gönderiler yalnız
+sana görünür.
+
 Topluluk akışın; kendi gönderilerini, takip ettiklerinin ve seni takip
 edenlerin gönderilerini ve hedefi ya da ilgi alanı seninkiyle ortak kişilerin
 gönderilerini gösterir. Bu eşleştirme için yalnız topluluk profilindeki hedef
@@ -113,11 +133,15 @@ veya ağır ihlallerde topluluk erişimi kapatılır ve bunun gerekçesi saklan�
 Birden fazla kişinin bildirdiği gönderi, inceleme bitene kadar otomatik
 gizlenebilir.
 
-**Koç Nutri gönderileri.** "Resmî yapay zekâ koçu" işaretli "Koç Nutri"
-hesabının gönderileri NutriLens tarafından yapay zekâ (Google Gemini) yardımıyla
+**Koç Nutri.** "Resmî yapay zekâ koçu" işaretli "Koç Nutri" hesabının gönderi
+ve yorumları NutriLens tarafından yapay zekâ (Google Gemini) yardımıyla
 hazırlanır; genel sağlıklı yaşam bilgisidir, kişisel tıbbi tavsiye değildir.
-Senin verilerini kullanmaz; pazartesi duyurusu yalnız Arena sıralamasında
-zaten görünen ilk üçün adlarını içerir. Koç Nutri mesaj okumaz ve yanıtlamaz.
+Koç Nutri topluluktaki gönderileri beğenebilir, yorum yapabilir, yorumlara cevap
+verebilir, alıntılayabilir veya yeniden paylaşabilir. Bunun için yalnız gönderi
+ya da yorumda yazılanı ve yazarın görünen adını kullanır; günlük kayıtlarını ve
+sağlık verini kullanmaz. Pazartesi duyurusu yalnız Arena sıralamasında zaten
+görünen ilk üçün adlarını içerir. NutriLens ekibi de bu hesap adına paylaşım
+yapabilir. Koç Nutri mesaj okumaz ve yanıtlamaz.
 
 Kendi gönderilerini silebilir, kişileri engelleyebilirsin. Engellediğin kişiyle
 birbirinizin profilini, gönderilerini ve mesajlarını görmezsiniz.
@@ -151,6 +175,35 @@ sürümü saklanır ve **geliştiriciye e-postayla iletilir**. E-postaya hesap
 kimliğin, e-posta adresin veya sağlık verin eklenmez; lütfen metne sağlık
 bilgisi yazma. Hesap başına 20 saatte bir yanıt kabul edilir.
 
+### 1.10. Yakındaki marketler ve fiyatlar (isteğe bağlı, yaklaşık konum)
+
+Bir ürünün yakındaki fiyatlarını ya da yakındaki marketleri görmek istediğinde
+uygulama **yaklaşık konum** izni ister. Konum yalnız o arama için, uygulamayı
+kullanırken okunur; arka planda takip yapılmaz.
+
+- Konum şifreli bağlantıyla NutriLens sunucusuna gider. Sunucu yakındaki
+  marketleri bulmak için **OpenStreetMap** hizmetlerine (komoot Photon, Overpass)
+  yalnız **yaklaşık 110 metreye yuvarlanmış** koordinatı gönderir; kimliğin ve
+  telefonunun IP adresi onlara gitmez. Konumun saklanmaz ve hesabınla
+  ilişkilendirilmez.
+- **Bildirdiğin fiyatlar:** ürünün barkodu ve adı, marketin adı ve haritadaki
+  konumu (senin konumun değil), fiyat, para birimi ve zaman saklanır. Diğer
+  kullanıcılar fiyatı, marketi, uzaklığı ve tarihi görür; **kimin bildirdiği
+  gösterilmez**. Hesabın, günlük sınırı uygulamak ve kötüye kullanımı önlemek
+  için kayıtla birlikte tutulur.
+- Ürünün **Open Prices** (Open Food Facts) üzerindeki herkese açık fiyatları
+  sunucumuz üzerinden, yalnız barkodla sorgulanır.
+- "Market Fiyatı'nda karşılaştır" bağlantısı resmî Market Fiyatı sitesini
+  tarayıcında açar; o site kendi politikasına tabidir.
+- Konum iznini vermezsen diğer bütün özellikler çalışmaya devam eder.
+
+### 1.11. Ürün ve yemek bilgisi kaynakları
+
+Barkod taradığında barkod numarası, ürün aradığında yazdığın metin telefonundan
+doğrudan **Open Food Facts**'e; bazı yemek görselleri için yemeğin adı
+**Wikipedia**'ya gönderilir. Bu hizmetlere hesabın, sağlık verin veya konumun
+gönderilmez; her web sitesinde olduğu gibi telefonunun IP adresini görebilirler.
+
 ---
 
 ## 2. Verileri Neden İşliyoruz (Hukuki Dayanak)
@@ -166,6 +219,10 @@ bilgisi yazma. Hesap başına 20 saatte bir yanıt kabul edilir.
 | Bildirimleri inceleme ve topluluk güvenliği | Meşru menfaat / yasal yükümlülük |
 | Hava durumu ve havaya göre öneriler | Açık rıza (konum izni, isteğe bağlı) |
 | Gönderdiğin öneriler | Açık rıza (göndermeyi sen seçersin) |
+| Toplu kullanım istatistikleri | Meşru menfaat (hizmeti geliştirmek) |
+| Yakındaki marketler ve fiyatlar | Açık rıza (konum izni, isteğe bağlı) |
+| Fiyat bildirmek | Sözleşmenin ifası (sen başlatırsın) |
+| Profilde sağlık bilgisi göstermek | Açık rıza (açarsan) |
 
 Sağlık verisi **özel nitelikli kişisel veridir**; bu verileri yalnızca **açık rızanla**
 ve sana hizmeti sunmak için işleriz.
@@ -182,9 +239,13 @@ Verini satmıyoruz. Yalnızca hizmeti sunmak için gerekli **işleyiciler** ile 
 - **Google Health Connect / Apple Health** — yalnızca senin cihazında, iznine bağlı.
 - **MET Norway** — hava tahmini; yalnız yuvarlanmış bölge koordinatı, kimlik olmadan (bkz. 1.8).
 - **FormSubmit / Resend** — gönderdiğin önerilerin e-postayla gelen kutumuza iletilmesi (bkz. 1.9).
+- **OpenStreetMap (komoot Photon, Overpass)** — yakındaki marketler; yalnız yuvarlanmış koordinat, kimlik olmadan (bkz. 1.10).
+- **Open Food Facts / Open Prices** — barkodla ürün bilgisi ve herkese açık fiyatlar (bkz. 1.10, 1.11).
+- **Wikipedia** — yemek adıyla görsel arama (bkz. 1.11).
 - **Diğer kullanıcılar** — yalnızca turnuva takma adın ve puanın (bkz. 1.6);
   meydan okumada ise karşı tarafa seçilen kategorideki skorun; toplulukta
-  ise yalnız kendi yayınladığın profil ve içerik (bkz. 1.7).
+  ise yalnız kendi yayınladığın profil, içerik ve profilde açtığın bilgiler
+  (bkz. 1.7); bildirdiğin fiyatlar ise kimliğin olmadan (bkz. 1.10).
 
 Bu sağlayıcıların bir kısmı verini yurt dışındaki sunucularda işleyebilir;
 uygun güvenlik önlemleri uygulanır.
@@ -197,7 +258,7 @@ Verilerini hesabın aktif olduğu sürece saklarız. **Hesabını sildiğinde**,
 kayıtların, fotoğrafların, kilo geçmişin, profilin ve kimlik kaydın **kalıcı olarak
 silinir** (Uygulama içi Ayarlar → Gizlilik ve Veriler → Hesabı Sil). Topluluk
 profilin, gönderilerin, yorumların, beğenilerin, mesajların, yüklediğin
-topluluk dosyaları ve gönderdiğin öneriler de silinir. Başka üyelerin bulunduğu bir grubun yöneticiliği başka bir üyeye
+topluluk dosyaları, gönderdiğin öneriler, bildirdiğin fiyatlar ve uygulama kullanım kayıtların da silinir. Başka üyelerin bulunduğu bir grubun yöneticiliği başka bir üyeye
 geçer; grup ve diğer üyelerin mesajları kalır.
 
 ---

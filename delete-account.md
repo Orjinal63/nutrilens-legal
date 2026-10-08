@@ -26,9 +26,11 @@ When you delete your account, the following are **permanently removed**:
 - Meal and profile photos
 - Weight history and health/fitness data synced from Health Connect (steps, activity, sleep, heart rate)
 - AI usage records
-- Community profile, posts, comments, messages, likes, follows, reports and uploaded photos, videos and audio
+- Community profile, posts, comments, messages, likes, follows, saved posts, reports and uploaded photos, videos and audio
+- Prices you reported for products in nearby shops
+- App usage records (the days and hours the app was opened, app language, version and device country)
 
-Approximate location used for the optional weather feature is never stored, so there is nothing to delete.
+Approximate location used for the optional weather and nearby-shops features is never stored, so there is nothing to delete. Your health profile and favourite products are stored only on your phone and are removed when you uninstall the app.
 
 ## What data is retained
 
