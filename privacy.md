@@ -1,7 +1,7 @@
 # NutriLens — Privacy Policy
 
 **Effective date:** August 9, 2026
-**Last updated:** October 9, 2026 (Usage statistics, nearby shops and prices, optional health facts on the profile, Coach Nutri comments, product information sources)
+**Last updated:** October 9, 2026 (Usage statistics, nearby shops and prices, optional health facts on the profile, Coach Nutri comments, product information sources, Bluetooth devices)
 **Data controller:** Bahri Bulut (FitnessAI)
 **Contact:** bahri9954@gmail.com
 
@@ -204,6 +204,22 @@ some food pictures, the food's name is sent to **Wikipedia**. These services
 receive no account, health data or location; like any website, they can see your
 phone's IP address.
 
+### 1.12. Bluetooth devices (optional)
+
+You can add a heart rate strap, watch, scale, body composition scale or blood
+pressure monitor over Bluetooth. The App asks for the **"Nearby devices"**
+permission for this; on Android 11 and older the system also asks for location
+for any Bluetooth search. The search is never used to find your location, and
+your location is not read.
+
+- The list of devices you add (device name, type, last reading and battery
+  level) is stored **only on your phone** and is not sent to any server.
+- Heart rate, weight, body fat and blood pressure readings go from the device
+  straight to your phone and are shown on screen. **A weight is saved to your
+  weight history only when you tap "Save to my weight"** (see 1.2); other
+  readings are not sent to any server.
+- If you deny the permission or add no device, every other feature works.
+
 ---
 
 ## 2. Why We Process Data (Legal Basis)
@@ -223,6 +239,7 @@ phone's IP address.
 | Nearby shops and prices | Consent (location permission, optional) |
 | Reporting a price | Performance of contract (you initiate it) |
 | Showing health facts on your profile | Consent (if you switch them on) |
+| Reading measurements from a Bluetooth device | Consent (permission, optional) |
 
 Health data is **special-category personal data**; we process it only with your
 **explicit consent** and to provide the service to you.

@@ -30,7 +30,7 @@ When you delete your account, the following are **permanently removed**:
 - Prices you reported for products in nearby shops
 - App usage records (the days and hours the app was opened, app language, version and device country)
 
-Approximate location used for the optional weather and nearby-shops features is never stored, so there is nothing to delete. Your health profile and favourite products are stored only on your phone and are removed when you uninstall the app.
+Approximate location used for the optional weather and nearby-shops features is never stored, so there is nothing to delete. Your health profile, favourite products and the list of Bluetooth devices you added are stored only on your phone and are removed when you uninstall the app.
 
 ## What data is retained
 

@@ -1,7 +1,7 @@
 # NutriLens — Gizlilik Politikası
 
 **Yürürlük tarihi:** 9 Ağustos 2026
-**Son güncelleme:** 9 Ekim 2026 (Kullanım istatistikleri, yakındaki marketler ve fiyatlar, profilde isteğe bağlı sağlık bilgileri, Koç Nutri yorumları, ürün bilgisi kaynakları)
+**Son güncelleme:** 9 Ekim 2026 (Kullanım istatistikleri, yakındaki marketler ve fiyatlar, profilde isteğe bağlı sağlık bilgileri, Koç Nutri yorumları, ürün bilgisi kaynakları, Bluetooth cihazlar)
 **Veri sorumlusu:** Bahri Bulut (FitnessAI)
 **İletişim:** bahri9954@gmail.com
 
@@ -204,6 +204,21 @@ doğrudan **Open Food Facts**'e; bazı yemek görselleri için yemeğin adı
 **Wikipedia**'ya gönderilir. Bu hizmetlere hesabın, sağlık verin veya konumun
 gönderilmez; her web sitesinde olduğu gibi telefonunun IP adresini görebilirler.
 
+### 1.12. Bluetooth cihazlar (isteğe bağlı)
+
+Nabız kemeri, akıllı saat, tartı, vücut analiz tartısı veya tansiyon aletini
+Bluetooth ile ekleyebilirsin. Uygulama bunun için **"Yakındaki cihazlar"**
+iznini ister; Android 11 ve öncesinde sistem Bluetooth araması için konum
+izni de ister. Arama konum belirlemek için kullanılmaz ve konumun okunmaz.
+
+- Eklediğin cihazların listesi (cihaz adı, türü, son ölçüm ve pil düzeyi)
+  **yalnız telefonunda** saklanır; sunucuya gönderilmez.
+- Nabız, kilo, vücut yağ oranı ve tansiyon ölçümleri cihazdan doğrudan
+  telefonuna gelir ve ekranda gösterilir. **Kilo yalnız "Kiloma kaydet"e
+  bastığında** kilo geçmişine yazılır (bkz. 1.2); diğer ölçümler sunucuya
+  gönderilmez.
+- İzni vermezsen ya da cihaz eklemezsen diğer bütün özellikler çalışır.
+
 ---
 
 ## 2. Verileri Neden İşliyoruz (Hukuki Dayanak)
@@ -223,6 +238,7 @@ gönderilmez; her web sitesinde olduğu gibi telefonunun IP adresini görebilirl
 | Yakındaki marketler ve fiyatlar | Açık rıza (konum izni, isteğe bağlı) |
 | Fiyat bildirmek | Sözleşmenin ifası (sen başlatırsın) |
 | Profilde sağlık bilgisi göstermek | Açık rıza (açarsan) |
+| Bluetooth cihazdan ölçüm okumak | Açık rıza (izin, isteğe bağlı) |
 
 Sağlık verisi **özel nitelikli kişisel veridir**; bu verileri yalnızca **açık rızanla**
 ve sana hizmeti sunmak için işleriz.
