@@ -1,7 +1,7 @@
 # NutriLens — Privacy Policy
 
 **Effective date:** August 9, 2026
-**Last updated:** October 9, 2026 (Usage statistics, nearby shops and prices, optional health facts on the profile, Coach Nutri comments, product information sources, Bluetooth devices)
+**Last updated:** November 21, 2026 (Profile names in the Tournament, winner posts, invite program, new onboarding questions, welcome offer)
 **Data controller:** Bahri Bulut (FitnessAI)
 **Contact:** bahri9954@gmail.com
 
@@ -61,19 +61,23 @@ what rights you have.
 
 ### 1.6. Tournament and challenges (visible to other users)
 
-In the **Tournament** section of the App, two pieces of information are shown
+In the **Tournament** section of the App, the following is shown
 **publicly to other users**:
 
-- **Your nickname** — you choose it. If you don't, a fixed name derived from
-  your user ID is used (e.g. "Proud Pear 562"), written in the reader's app
-  language; it cannot be traced back to your identity.
-  A nickname may not copy another person's shown name.
+- **Your name** — your Tournament name if you set one; otherwise your profile
+  name (this may be the name on your Google account if you signed in with
+  Google), else your community name. Without any of these a label such as
+  "User 4821" is shown. A Tournament name may not copy another person's shown
+  name. You can change or remove your profile name under Settings → Edit
+  profile.
 - **Your points** — calculated from logging meals, hitting your calorie goal,
   weighing in, drinking water, step/sleep data and your streak.
+- **If you win a prize** — your Tournament name, **your profile photo** and the
+  Premium days you won are posted in the community by the Coach Nutri account.
 
-**Your real name, email address, calories, weight, meal photos and health
-measurements are never visible in the tournament.** A point total is just a
-number; the behaviour behind it is not shown to anyone.
+**Your email address, calories, weight, meal photos and health measurements
+are never visible in the tournament.** A point total is just a number; the
+behaviour behind it is not shown to anyone.
 
 If you **challenge** another user (or are challenged), the other party sees
 your **score in the chosen category** (points, steps, meals, water, sleep).
@@ -84,7 +88,7 @@ their next point.
 
 **If you'd rather not appear:** Tournament tab → badge icon → turn on "Hide me
 from the board". You leave the leaderboard; your points keep counting and you
-can come back whenever you want.
+can come back whenever you want. Hidden people are not included in winner posts.
 
 ### 1.7. Community (what you share is visible to other users)
 
@@ -222,6 +226,22 @@ your location is not read.
 
 ---
 
+### 1.13. Invite program and onboarding questions
+
+- **Your invite code and link** — every account gets one code; the link carries
+  it. When a friend uses your code we store who invited whom and whether the
+  friend finished signing up. An inviter only sees **counts**; the identity of
+  invited friends is never shown. Rules: [Invite program rules](invite.html).
+- On Android, if the app was installed from an invite link, the Google Play
+  install referrer is read once and only the invite code is taken from it.
+- Your answer to **"Where did you hear about NutriLens?"** (e.g. Instagram) and
+  the onboarding answers on the habits you want to focus on, sleep, water, home
+  cooking, your main challenges and diet history are stored in your profile;
+  they are used to calculate your plan and personalise your coach.
+- **When you first saw** the 30-minute welcome offer at the end of onboarding is
+  stored in your profile and used only for aggregate counts.
+- All of these records are deleted with your account.
+
 ## 2. Why We Process Data (Legal Basis)
 
 | Purpose | Basis |
@@ -259,8 +279,8 @@ We do not sell your data. We share it only with **processors** needed to run the
 - **OpenStreetMap (komoot Photon, Overpass)** — nearby shops; only a rounded coordinate, without your identity (see 1.10).
 - **Open Food Facts / Open Prices** — product information by barcode and public prices (see 1.10, 1.11).
 - **Wikipedia** — food pictures by food name (see 1.11).
-- **Other users** — only your tournament nickname and points (see 1.6); in a
-  challenge, your score in the chosen category is shown to the other party; in
+- **Other users** — your tournament name and points; if you win a prize, your
+  name and profile photo (see 1.6); in a challenge, your score in the chosen category is shown to the other party; in
   the community, only the profile and content you publish and the profile facts
   you switch on (see 1.7); prices you report, without your identity (see 1.10).
 

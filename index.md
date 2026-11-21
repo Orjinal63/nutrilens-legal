@@ -8,4 +8,8 @@
 - [English](terms.html)
 - [Turkce](kullanim.html)
 
+## Invite Program Rules / Davet Programi Kurallari
+- [English](invite.html)
+- [Turkce](davet.html)
+
 Contact: bahri9954@gmail.com

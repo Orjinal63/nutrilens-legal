@@ -1,7 +1,7 @@
 # NutriLens — Gizlilik Politikası
 
 **Yürürlük tarihi:** 9 Ağustos 2026
-**Son güncelleme:** 9 Ekim 2026 (Kullanım istatistikleri, yakındaki marketler ve fiyatlar, profilde isteğe bağlı sağlık bilgileri, Koç Nutri yorumları, ürün bilgisi kaynakları, Bluetooth cihazlar)
+**Son güncelleme:** 21 Kasım 2026 (Turnuva'da profil adı, kazanan duyurusu, davet programı, yeni başlangıç soruları, hoş geldin teklifi)
 **Veri sorumlusu:** Bahri Bulut (FitnessAI)
 **İletişim:** bahri9954@gmail.com
 
@@ -58,19 +58,22 @@ kişisel verileri işlediğimizi, neden işlediğimizi ve haklarını açıklar.
 
 ### 1.6. Turnuva ve meydan okuma (diğer kullanıcılara açık)
 
-Uygulamadaki **Turnuva** bölümünde şu iki bilgi **diğer kullanıcılara açık**
+Uygulamadaki **Turnuva** bölümünde şu bilgiler **diğer kullanıcılara açık**
 olarak gösterilir:
 
-- **Takma adın** — kendin belirlersin. Belirlemezsen kullanıcı kimliğinden
-  türetilen sabit bir ad kullanılır (ör. "Gururlu Armut 562"); okuyanın
-  uygulama dilinde yazılır ve bu addan kimliğine geri ulaşılamaz. Takma ad
-  başka birinin görünen adını kopyalayamaz.
+- **Adın** — belirlediysen Turnuva adın; belirlemediysen profilindeki adın
+  (Google ile giriş yaptıysan Google hesabındaki ad olabilir), o da yoksa
+  topluluk adın. Hiçbiri yoksa "Kullanıcı 4821" gibi bir etiket görünür.
+  Turnuva adı başka birinin görünen adını kopyalayamaz. Profil adını
+  Ayarlar → Profili düzenle'den değiştirebilir ya da silebilirsin.
 - **Puanın** — öğün kaydetmek, kalori hedefini tutturmak, tartıya çıkmak, su
   içmek, adım/uyku verisi ve seri (üst üste kullanım) üzerinden hesaplanır.
+- **Ödül kazanırsan** — Turnuva'daki adın, **profil fotoğrafın** ve kazandığın
+  Premium gün sayısı, Koç Nutri hesabından toplulukta paylaşılır.
 
-**Gerçek adın, e-posta adresin, kalorin, kilon, öğün fotoğrafların ve sağlık
-ölçümlerin turnuvada hiçbir zaman görünmez.** Puan bir sayıdır; hangi
-davranıştan geldiği başkasına gösterilmez.
+**E-posta adresin, kalorin, kilon, öğün fotoğrafların ve sağlık ölçümlerin
+turnuvada hiçbir zaman görünmez.** Puan bir sayıdır; hangi davranıştan geldiği
+başkasına gösterilmez.
 
 Bir kullanıcıya **meydan okursan** (ya da sana meydan okunursa), karşı taraf
 seçilen kategorideki (puan, adım, öğün sayısı, su, uyku) **skorunu** görür.
@@ -81,7 +84,7 @@ yeniden görünürler.
 
 **Görünmek istemiyorsan:** Turnuva sekmesi → rozet simgesi → "Sıralamada
 görünme" anahtarını aç. Sıralamadan çıkarsın; puanın hesaplanmaya devam eder ve
-istediğinde geri dönebilirsin.
+istediğinde geri dönebilirsin. Gizlenen kişi kazananlar duyurusunda da yer almaz.
 
 ### 1.7. Topluluk (paylaştıkların diğer kullanıcılara açık)
 
@@ -221,6 +224,23 @@ izni de ister. Arama konum belirlemek için kullanılmaz ve konumun okunmaz.
 
 ---
 
+### 1.13. Davet programı ve başlangıç soruları
+
+- **Davet kodun ve linkin** — her hesaba bir kod verilir; link bu kodu içerir.
+  Bir arkadaşın kodunu kullandığında "kim kimi davet etti" bilgisi ve
+  arkadaşının kaydını tamamlayıp tamamlamadığı saklanır. Davet eden yalnızca
+  **sayıları** görür; davet edilenlerin kimliği gösterilmez. Kurallar:
+  [Davet programı kuralları](davet.html).
+- Android'de uygulama bir davet linkinden kurulduysa, Google Play'in kurulum
+  bilgisi (install referrer) bir kez okunur ve yalnızca davet kodu alınır.
+- **"NutriLens'i nerede gördün?"** cevabı (ör. Instagram) ve başlangıçtaki
+  odaklandığın alışkanlıklar, uyku, su, evde yemek yapma, zorlandığın konular
+  ve diyet geçmişi cevapları profilinde saklanır; planını hesaplamak ve koçunu
+  kişiselleştirmek için kullanılır.
+- Başlangıçtaki 30 dakikalık hoş geldin teklifini **ilk gördüğün zaman**
+  profilinde saklanır; yalnız toplu sayım için kullanılır.
+- Hesabını silince bu kayıtların hepsi silinir.
+
 ## 2. Verileri Neden İşliyoruz (Hukuki Dayanak)
 
 | Amaç | Dayanak |
@@ -258,8 +278,8 @@ Verini satmıyoruz. Yalnızca hizmeti sunmak için gerekli **işleyiciler** ile 
 - **OpenStreetMap (komoot Photon, Overpass)** — yakındaki marketler; yalnız yuvarlanmış koordinat, kimlik olmadan (bkz. 1.10).
 - **Open Food Facts / Open Prices** — barkodla ürün bilgisi ve herkese açık fiyatlar (bkz. 1.10, 1.11).
 - **Wikipedia** — yemek adıyla görsel arama (bkz. 1.11).
-- **Diğer kullanıcılar** — yalnızca turnuva takma adın ve puanın (bkz. 1.6);
-  meydan okumada ise karşı tarafa seçilen kategorideki skorun; toplulukta
+- **Diğer kullanıcılar** — turnuvadaki adın ve puanın; ödül kazanırsan adın ve
+  profil fotoğrafın (bkz. 1.6); meydan okumada ise karşı tarafa seçilen kategorideki skorun; toplulukta
   ise yalnız kendi yayınladığın profil, içerik ve profilde açtığın bilgiler
   (bkz. 1.7); bildirdiğin fiyatlar ise kimliğin olmadan (bkz. 1.10).
 
