@@ -1,7 +1,7 @@
 # NutriLens — Terms of Service
 
 **Effective date:** June 22, 2026
-**Last updated:** September 23, 2026 (Community rules added)
+**Last updated:** November 22, 2026 (Age rule: minimum age 13)
 **Service provider:** Bahri Bulut (FitnessAI)
 **Contact:** bahri9954@gmail.com
 
@@ -27,7 +27,9 @@ matter. In an emergency, contact your local health services.
 
 ## 3. Eligibility
 
-You must be **at least 18 years old** to use the App.
+You must be **at least 13 years old** to use the App. If we learn that an account
+belongs to someone under 13, we close it. If you are under the age of majority
+where you live, use the App with your parent's or guardian's permission.
 
 ## 4. Accounts
 

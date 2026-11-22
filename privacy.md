@@ -1,7 +1,8 @@
 # NutriLens — Privacy Policy
 
 **Effective date:** August 9, 2026
-**Last updated:** November 21, 2026 (Profile names in the Tournament, winner posts, invite program, new onboarding questions, welcome offer)
+**Version:** 1.15
+**Last updated:** November 22, 2026 (Advertising and the advertising ID, what the developer can see, names in the Tournament, guest account retention, age rule, in-app rating)
 **Data controller:** Bahri Bulut (FitnessAI)
 **Contact:** bahri9954@gmail.com
 
@@ -54,10 +55,9 @@ what rights you have.
   and how many times, your device's country code, app language, platform
   (Android/iOS) and app version are recorded with your account. It contains no
   location, content or diary entries. These records and the age/gender in your
-  profile are used only for **aggregate statistics** seen by the developer (how
-  many people, at what hours, from which countries, average age); individual
-  records are never shown to anyone. **Usage records older than 400 days** are
-  deleted every night.
+  profile are used for **statistics** that only the developer sees; section
+  1.15 lists exactly what the developer can see. Other users never see them.
+  **Usage records older than 400 days** are deleted every night.
 
 ### 1.6. Tournament and challenges (visible to other users)
 
@@ -65,14 +65,19 @@ In the **Tournament** section of the App, the following is shown
 **publicly to other users**:
 
 - **Your name** — your Tournament name if you set one; otherwise your profile
-  name (this may be the name on your Google account if you signed in with
-  Google), else your community name. Without any of these a label such as
+  name, else your community name. Without any of these a label such as
   "User 4821" is shown. A Tournament name may not copy another person's shown
-  name. You can change or remove your profile name under Settings → Edit
-  profile.
+  name.
+  - **By default your profile name is shown.** If you signed in with Google,
+    your profile name was filled in from your Google account, so your real
+    name appears on the board until you change it. This applies to existing
+    accounts too since November 21, 2026.
+  - To show another name, set a Tournament name (Tournament tab → badge icon).
+    You can change or remove your profile name under Settings → Edit profile.
+    To show no name at all, hide from the board (see below).
 - **Your points** — calculated from logging meals, hitting your calorie goal,
   weighing in, drinking water, step/sleep data and your streak.
-- **If you win a prize** — your Tournament name, **your profile photo** and the
+- **If you win a prize** — the name shown for you in the Tournament, **your profile photo** and the
   Premium days you won are posted in the community by the Coach Nutri account.
 
 **Your email address, calories, weight, meal photos and health measurements
@@ -179,6 +184,14 @@ does not include your account ID, email address or health data; please don't
 write health information in the text. One answer per account is accepted every
 20 hours.
 
+**In-app rating.** Now and then the App asks for 1 to 5 stars and an optional
+short note. Answering is optional. If you send one, the rating, the note, the
+app language, your device's country code and the app version are stored with
+your account and deleted when you delete your account. The note of a 1 or 2
+star rating is emailed to the developer without your account ID. Please don't
+write health information in the note. Google Play's review window is Google's
+own service; the App does not see the rating you give there.
+
 ### 1.10. Nearby shops and prices (optional, approximate location)
 
 When you want to see a product's prices nearby or the shops near you, the App
@@ -242,6 +255,55 @@ your location is not read.
   stored in your profile and used only for aggregate counts.
 - All of these records are deleted with your account.
 
+### 1.14. Advertising (Google AdMob)
+
+The free tier shows ads. Premium shows at most 3 full-screen ads a day and no
+banners. Plus and Ultra show no ads. Ads come from **Google AdMob**
+(Google Ireland Ltd. / Google LLC).
+
+- **What AdMob collects:** the AdMob software in the App collects your device's
+  **advertising ID** (Android Advertising ID), your IP address (Google derives an
+  approximate location from it), how you interact with ads (views, taps) and
+  device and crash diagnostics.
+- **What it is used for:** to show and count ads, to prevent ad fraud and,
+  where you allow it, to show ads based on your interests. Google uses this data
+  as an independent controller under its own policy:
+  <https://policies.google.com/technologies/partner-sites>.
+- **What AdMob does not get:** NutriLens never sends AdMob your name, email,
+  meals, photos, weight, health data or community content. Ads are not chosen
+  from your health data.
+- **Your choices:** in Android Settings → Google → Ads you can reset or delete
+  your advertising ID or opt out of ads personalisation; you then see
+  non-personalised ads. From version 1.16.1, in the EEA, the UK and Switzerland
+  the App asks for your consent before personalised ads, and you can change
+  your choice later from the App's settings. From version 1.16.1, an account
+  whose profile age is under 18 gets only non-personalised ads suitable for all
+  ages. Plus and Ultra remove ads completely.
+- Deutsch · Русский · العربية: [ads.html](ads.html).
+
+### 1.15. What the developer can see
+
+The developer's own account can open statistics pages in the developer build
+of the App. These pages are not part of the store app and no other user can
+open them. They show:
+
+- **Totals:** how many people use the App, at what hours, from which countries,
+  which app versions and which features, also split by age group, gender and
+  country. A group with fewer than 5 people is hidden.
+- **Community members:** for each person with a community profile, the
+  community name, app language, country code, app version and which features
+  they used. No email, meal, weight or health data is shown.
+- **Prizes and invite rewards:** for each Premium reward, the person's names
+  (Tournament, profile and community name), what was won, whether it is
+  active, waiting or ended and the days left; for each inviter, the number of
+  invited and counted friends.
+- **Onboarding answers:** counts of each answer, and the latest 50 free-text
+  "other" answers to "Where did you hear about NutriLens?" without any account
+  ID.
+
+The developer uses these pages to run and improve the service, to give out
+prizes and rewards correctly and to find abuse.
+
 ## 2. Why We Process Data (Legal Basis)
 
 | Purpose | Basis |
@@ -260,6 +322,10 @@ your location is not read.
 | Reporting a price | Performance of contract (you initiate it) |
 | Showing health facts on your profile | Consent (if you switch them on) |
 | Reading measurements from a Bluetooth device | Consent (permission, optional) |
+| Showing your name and points in the Tournament, posting prize winners | Legitimate interest (you can set a nickname or hide) |
+| Invite program and Tournament prizes | Performance of contract (the published rules) |
+| Developer pages (see 1.15) | Legitimate interest (running the service, prize administration, preventing abuse) |
+| Ads in the free and Premium tiers | Legitimate interest (funding the free tier); personalised ads in the EEA, UK and Switzerland: consent |
 
 Health data is **special-category personal data**; we process it only with your
 **explicit consent** and to provide the service to you.
@@ -279,6 +345,9 @@ We do not sell your data. We share it only with **processors** needed to run the
 - **OpenStreetMap (komoot Photon, Overpass)** — nearby shops; only a rounded coordinate, without your identity (see 1.10).
 - **Open Food Facts / Open Prices** — product information by barcode and public prices (see 1.10, 1.11).
 - **Wikipedia** — food pictures by food name (see 1.11).
+- **Google AdMob (Google)** — ads in the free and Premium tiers; receives the
+  advertising ID, IP address, ad interactions and diagnostics, and uses them
+  under its own policy (see 1.14).
 - **Other users** — your tournament name and points; if you win a prize, your
   name and profile photo (see 1.6); in a challenge, your score in the chosen category is shown to the other party; in
   the community, only the profile and content you publish and the profile facts
@@ -297,8 +366,11 @@ deleted** (in-app: Settings → Privacy & Data → Delete Account). Your communi
 profile, posts, comments, likes, messages, uploaded community files, the
 suggestions you sent, the prices you reported and your app usage records are
 deleted too.
+Your Tournament prize records and invite records are deleted too.
 If a group you run has other members, it passes to one of them; the group and
 the other members' messages remain.
+
+A guest or permanent account is kept until you delete it.
 
 ---
 
@@ -316,8 +388,13 @@ To exercise these rights: bahri9954@gmail.com.
 
 ## 6. Children's Privacy
 
-The App is not intended for **anyone under 18**. We do not knowingly collect data from
-children.
+The App is for people **13 and over**; you enter your age during setup and
+the App does not continue for anyone younger. We do not knowingly collect data
+from children under 13. If we learn that an account belongs to someone under
+13, we close it and delete its data. Users aged 13 to 17 use the App like
+everyone else; from version 1.16.1 they see only non-personalised ads. A
+parent or guardian can ask us at bahri9954@gmail.com to delete a child's
+account.
 
 ---
 

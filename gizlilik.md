@@ -1,7 +1,8 @@
 # NutriLens — Gizlilik Politikası
 
 **Yürürlük tarihi:** 9 Ağustos 2026
-**Son güncelleme:** 21 Kasım 2026 (Turnuva'da profil adı, kazanan duyurusu, davet programı, yeni başlangıç soruları, hoş geldin teklifi)
+**Sürüm:** 1.15
+**Son güncelleme:** 22 Kasım 2026 (Reklam ve reklam kimliği, geliştiricinin gördükleri, Turnuva'daki ad, misafir hesap saklama süresi, yaş kuralı, uygulama içi puan)
 **Veri sorumlusu:** Bahri Bulut (FitnessAI)
 **İletişim:** bahri9954@gmail.com
 
@@ -51,21 +52,26 @@ kişisel verileri işlediğimizi, neden işlediğimizi ve haklarını açıklar.
 - **Uygulama kullanım kaydı:** Uygulamayı açtığın her gün için hangi saatlerde ve
   kaç kez açtığın, cihazının ülke kodu, uygulama dili, platform (Android/iOS) ve
   uygulama sürümü hesabınla birlikte kaydedilir. Konum, içerik veya günlük kaydı
-  içermez. Bu kayıtlar ve profilindeki yaş/cinsiyet yalnız geliştiricinin gördüğü
-  **toplu istatistikler** (kaç kişi, hangi saatler, hangi ülkeler, yaş ortalaması)
-  için kullanılır; tek tek kayıtlar kimseye gösterilmez. **400 günden eski
-  kullanım kayıtları** her gece silinir.
+  içermez. Bu kayıtlar ve profilindeki yaş/cinsiyet yalnız geliştiricinin
+  gördüğü **istatistikler** için kullanılır; geliştiricinin tam olarak neyi
+  gördüğü 1.15'te yazar. Diğer kullanıcılar bunları hiç görmez. **400 günden
+  eski kullanım kayıtları** her gece silinir.
 
 ### 1.6. Turnuva ve meydan okuma (diğer kullanıcılara açık)
 
 Uygulamadaki **Turnuva** bölümünde şu bilgiler **diğer kullanıcılara açık**
 olarak gösterilir:
 
-- **Adın** — belirlediysen Turnuva adın; belirlemediysen profilindeki adın
-  (Google ile giriş yaptıysan Google hesabındaki ad olabilir), o da yoksa
-  topluluk adın. Hiçbiri yoksa "Kullanıcı 4821" gibi bir etiket görünür.
-  Turnuva adı başka birinin görünen adını kopyalayamaz. Profil adını
-  Ayarlar → Profili düzenle'den değiştirebilir ya da silebilirsin.
+- **Adın** — belirlediysen Turnuva adın; belirlemediysen profilindeki adın,
+  o da yoksa topluluk adın. Hiçbiri yoksa "Kullanıcı 4821" gibi bir etiket
+  görünür. Turnuva adı başka birinin görünen adını kopyalayamaz.
+  - **Varsayılan olarak profil adın görünür.** Google ile giriş yaptıysan
+    profil adın Google hesabından doldurulmuştur; değiştirene kadar gerçek
+    adın sıralamada görünür. Bu kural 21 Kasım 2026'dan beri mevcut hesaplar
+    için de geçerlidir.
+  - Başka bir ad göstermek için Turnuva adı belirle (Turnuva sekmesi → rozet
+    simgesi). Profil adını Ayarlar → Profili düzenle'den değiştirebilir ya da
+    silebilirsin. Hiç ad göstermemek için sıralamadan gizlen (aşağıya bak).
 - **Puanın** — öğün kaydetmek, kalori hedefini tutturmak, tartıya çıkmak, su
   içmek, adım/uyku verisi ve seri (üst üste kullanım) üzerinden hesaplanır.
 - **Ödül kazanırsan** — Turnuva'daki adın, **profil fotoğrafın** ve kazandığın
@@ -178,6 +184,14 @@ sürümü saklanır ve **geliştiriciye e-postayla iletilir**. E-postaya hesap
 kimliğin, e-posta adresin veya sağlık verin eklenmez; lütfen metne sağlık
 bilgisi yazma. Hesap başına 20 saatte bir yanıt kabul edilir.
 
+**Uygulama içi puan.** Uygulama ara sıra 1 ile 5 arasında yıldız ve isteğe
+bağlı kısa bir not ister. Yanıt vermek isteğe bağlıdır. Gönderirsen puan, not,
+uygulama dili, cihaz ülke kodu ve uygulama sürümü hesabınla birlikte saklanır
+ve hesabını sildiğinde silinir. 1 ya da 2 yıldızlı puanın notu, hesap kimliğin
+olmadan geliştiriciye e-postayla iletilir. Lütfen nota sağlık bilgisi yazma.
+Google Play'in değerlendirme penceresi Google'ın kendi hizmetidir; orada
+verdiğin puanı uygulama görmez.
+
 ### 1.10. Yakındaki marketler ve fiyatlar (isteğe bağlı, yaklaşık konum)
 
 Bir ürünün yakındaki fiyatlarını ya da yakındaki marketleri görmek istediğinde
@@ -241,6 +255,55 @@ izni de ister. Arama konum belirlemek için kullanılmaz ve konumun okunmaz.
   profilinde saklanır; yalnız toplu sayım için kullanılır.
 - Hesabını silince bu kayıtların hepsi silinir.
 
+### 1.14. Reklam (Google AdMob)
+
+Ücretsiz kademede reklam gösterilir. Premium'da banner yoktur, günde en çok 3
+tam ekran reklam gösterilir. Plus ve Ultra reklamsızdır. Reklamları **Google
+AdMob** (Google Ireland Ltd. / Google LLC) sunar.
+
+- **AdMob'un topladıkları:** Uygulamadaki AdMob yazılımı cihazının **reklam
+  kimliğini** (Android Reklam Kimliği), IP adresini (Google bundan yaklaşık
+  konum çıkarır), reklamlarla etkileşimini (görüntüleme, dokunma) ve cihaz ile
+  çökme teşhis bilgilerini toplar.
+- **Ne için kullanılır:** reklamı göstermek ve saymak, reklam sahtekârlığını
+  önlemek ve izin verdiğin yerde ilgi alanına göre reklam göstermek. Google bu
+  verileri kendi politikasına göre bağımsız veri sorumlusu olarak kullanır:
+  <https://policies.google.com/technologies/partner-sites?hl=tr>.
+- **AdMob'a gitmeyenler:** NutriLens AdMob'a adını, e-postanı, öğünlerini,
+  fotoğraflarını, kilonu, sağlık verilerini veya topluluk içeriğini asla
+  göndermez. Reklamlar sağlık verine göre seçilmez.
+- **Seçimlerin:** Android Ayarlar → Google → Reklamlar bölümünden reklam
+  kimliğini sıfırlayabilir, silebilir ya da reklam kişiselleştirmeyi
+  kapatabilirsin; bundan sonra kişiselleştirilmemiş reklam görürsün. 1.16.1
+  sürümünden itibaren AEA, Birleşik Krallık ve İsviçre'de Uygulama
+  kişiselleştirilmiş reklamdan önce onayını sorar; seçimini daha sonra
+  Uygulama ayarlarından değiştirebilirsin. 1.16.1 sürümünden itibaren profil
+  yaşı 18'den küçük olan hesaba yalnız her yaşa uygun, kişiselleştirilmemiş
+  reklam gösterilir. Plus ve Ultra reklamları tamamen kaldırır.
+- Deutsch · Русский · العربية: [ads.html](ads.html).
+
+### 1.15. Geliştiricinin görebildikleri
+
+Geliştiricinin kendi hesabı, Uygulamanın geliştirme sürümünde istatistik
+sayfalarını açabilir. Bu sayfalar mağazadaki uygulamada yoktur ve başka hiçbir
+kullanıcı açamaz. Sayfalarda şunlar görünür:
+
+- **Toplamlar:** Uygulamayı kaç kişinin, hangi saatlerde, hangi ülkelerden,
+  hangi sürümle ve hangi özelliklerle kullandığı; yaş grubu, cinsiyet ve ülkeye
+  göre dağılımlar. 5 kişiden az olan grup gizlenir.
+- **Topluluk üyeleri:** topluluk profili olan her kişi için topluluk adı,
+  uygulama dili, ülke kodu, uygulama sürümü ve kullandığı özellikler. E-posta,
+  öğün, kilo veya sağlık verisi gösterilmez.
+- **Ödüller ve davet ödülleri:** her Premium ödülü için kişinin adları
+  (Turnuva, profil ve topluluk adı), ne kazandığı, ödülün etkin, beklemede ya
+  da bitmiş olduğu ve kalan gün sayısı; her davet eden için davet edilen ve
+  sayılan arkadaş sayısı.
+- **Başlangıç cevapları:** her cevabın sayısı ve "NutriLens'i nerede gördün?"
+  sorusuna yazılan son 50 "diğer" cevabı, hesap kimliği olmadan.
+
+Geliştirici bu sayfaları hizmeti yürütmek ve geliştirmek, ödülleri doğru
+vermek ve kötüye kullanımı bulmak için kullanır.
+
 ## 2. Verileri Neden İşliyoruz (Hukuki Dayanak)
 
 | Amaç | Dayanak |
@@ -259,6 +322,10 @@ izni de ister. Arama konum belirlemek için kullanılmaz ve konumun okunmaz.
 | Fiyat bildirmek | Sözleşmenin ifası (sen başlatırsın) |
 | Profilde sağlık bilgisi göstermek | Açık rıza (açarsan) |
 | Bluetooth cihazdan ölçüm okumak | Açık rıza (izin, isteğe bağlı) |
+| Turnuva'da adını ve puanını göstermek, kazananları duyurmak | Meşru menfaat (takma ad belirleyebilir ya da gizlenebilirsin) |
+| Davet programı ve Turnuva ödülleri | Sözleşmenin ifası (yayımlanan kurallar) |
+| Geliştirici sayfaları (bkz. 1.15) | Meşru menfaat (hizmeti yürütmek, ödül yönetimi, kötüye kullanımı önlemek) |
+| Ücretsiz ve Premium kademede reklam | Meşru menfaat (ücretsiz kademeyi finanse etmek); AEA, Birleşik Krallık ve İsviçre'de kişiselleştirilmiş reklam: açık rıza |
 
 Sağlık verisi **özel nitelikli kişisel veridir**; bu verileri yalnızca **açık rızanla**
 ve sana hizmeti sunmak için işleriz.
@@ -278,6 +345,9 @@ Verini satmıyoruz. Yalnızca hizmeti sunmak için gerekli **işleyiciler** ile 
 - **OpenStreetMap (komoot Photon, Overpass)** — yakındaki marketler; yalnız yuvarlanmış koordinat, kimlik olmadan (bkz. 1.10).
 - **Open Food Facts / Open Prices** — barkodla ürün bilgisi ve herkese açık fiyatlar (bkz. 1.10, 1.11).
 - **Wikipedia** — yemek adıyla görsel arama (bkz. 1.11).
+- **Google AdMob (Google)** — ücretsiz ve Premium kademede reklam; reklam
+  kimliğini, IP adresini, reklam etkileşimlerini ve teşhis bilgilerini alır ve
+  kendi politikasına göre kullanır (bkz. 1.14).
 - **Diğer kullanıcılar** — turnuvadaki adın ve puanın; ödül kazanırsan adın ve
   profil fotoğrafın (bkz. 1.6); meydan okumada ise karşı tarafa seçilen kategorideki skorun; toplulukta
   ise yalnız kendi yayınladığın profil, içerik ve profilde açtığın bilgiler
@@ -294,8 +364,10 @@ Verilerini hesabın aktif olduğu sürece saklarız. **Hesabını sildiğinde**,
 kayıtların, fotoğrafların, kilo geçmişin, profilin ve kimlik kaydın **kalıcı olarak
 silinir** (Uygulama içi Ayarlar → Gizlilik ve Veriler → Hesabı Sil). Topluluk
 profilin, gönderilerin, yorumların, beğenilerin, mesajların, yüklediğin
-topluluk dosyaları, gönderdiğin öneriler, bildirdiğin fiyatlar ve uygulama kullanım kayıtların da silinir. Başka üyelerin bulunduğu bir grubun yöneticiliği başka bir üyeye
+topluluk dosyaları, gönderdiğin öneriler, bildirdiğin fiyatlar ve uygulama kullanım kayıtların da silinir. Turnuva ödül kayıtların ve davet kayıtların da silinir. Başka üyelerin bulunduğu bir grubun yöneticiliği başka bir üyeye
 geçer; grup ve diğer üyelerin mesajları kalır.
+
+Misafir ya da kalıcı hesap, sen silene kadar saklanır.
 
 ---
 
@@ -313,7 +385,13 @@ Bu haklarını kullanmak için: bahri9954@gmail.com.
 
 ## 6. Çocukların Gizliliği
 
-Uygulama **18 yaşından küçükler** için tasarlanmamıştır. Bilerek çocuk verisi toplamayız.
+Uygulama **13 yaş ve üzeri** kişiler içindir; yaşını kurulum sırasında
+girersin ve daha küçükler için uygulama devam etmez. 13 yaşından küçük
+çocuklardan bilerek veri toplamayız. Bir hesabın 13 yaşından küçük birine ait
+olduğunu öğrenirsek hesabı kapatır ve verilerini sileriz. 13-17 yaş arası
+kullanıcılar uygulamayı herkes gibi kullanır; 1.16.1 sürümünden itibaren
+onlara yalnız kişiselleştirilmemiş reklam gösterilir. Veli veya vasi, çocuğun
+hesabının silinmesini bahri9954@gmail.com adresinden isteyebilir.
 
 ---
 

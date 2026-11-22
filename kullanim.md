@@ -1,7 +1,7 @@
 # NutriLens — Kullanım Şartları
 
 **Yürürlük tarihi:** 22 Haziran 2026
-**Son güncelleme:** 23 Eylül 2026 (Topluluk kuralları eklendi)
+**Son güncelleme:** 22 Kasım 2026 (Yaş kuralı: en düşük yaş 13)
 **Hizmet sağlayıcı:** Bahri Bulut (FitnessAI)
 **İletişim:** bahri9954@gmail.com
 
@@ -27,7 +27,9 @@ Acil durumda ilgili sağlık hizmetine başvur.
 
 ## 3. Uygunluk
 
-Uygulamayı kullanmak için **en az 18 yaşında** olmalısın.
+Uygulamayı kullanmak için **en az 13 yaşında** olmalısın. Bir hesabın 13 yaşından
+küçük birine ait olduğunu öğrenirsek hesabı kapatırız. Yaşadığın yerde reşit
+değilsen uygulamayı velinin ya da vasinin izniyle kullan.
 
 ## 4. Hesaplar
 

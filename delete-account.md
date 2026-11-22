@@ -29,6 +29,7 @@ When you delete your account, the following are **permanently removed**:
 - Community profile, posts, comments, messages, likes, follows, saved posts, reports and uploaded photos, videos and audio
 - Prices you reported for products in nearby shops
 - App usage records (the days and hours the app was opened, app language, version and device country)
+- Tournament prize records, invite code and invite records, onboarding answers
 
 Approximate location used for the optional weather and nearby-shops features is never stored, so there is nothing to delete. Your health profile, favourite products and the list of Bluetooth devices you added are stored only on your phone and are removed when you uninstall the app.
 
